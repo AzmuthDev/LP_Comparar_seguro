@@ -1,0 +1,24 @@
+event: message
+data: {"send_pixel":["https://googleads.g.doubleclick.net/pagead/viewthroughconversion/923314153/?random=938709954&fst=1781496895022&cv=10&fmt=3&bg=ffffff&guid=ON&u_w=1920&u_h=1080&gtm=45h91e66a1v9168638634z872160974z99229555965za20kzb72160974zd72160974&url=https%3A%2F%2Fwww.compararsegurodeviagem.com.br%2Fseguro-viagem-para-intercambio%2F&tiba=Comparar%20Seguro%20de%20Viagem%20-%20Interc%C3%A2mbio&auid=331933952.1781496895&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=8&dma=0&npa=0&gcd=13l3l3l3l1l1&pscdl=noapi&_is_sw=0&tag_exp=115938466~115938469~117549812~119456239~119456247&_tu=BA&gap.gtb=2&evnid=1781497334356_17814974911944"],"options":{}}
+
+event: message
+data: {"fetch":["https://www.google.com/rmkt/collect/923314153/?random=938709954&fst=1781496895022&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=1920&u_h=1080&gtm=45h91e66a1v9168638634z872160974z99229555965za20kzb72160974zd72160974&url=https%3A%2F%2Fwww.compararsegurodeviagem.com.br%2Fseguro-viagem-para-intercambio%2F&tiba=Comparar%20Seguro%20de%20Viagem%20-%20Interc%C3%A2mbio&auid=331933952.1781496895&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=8&dma=0&npa=0&gcd=13l3l3l3l1l1&pscdl=noapi&_is_sw=0&tag_exp=115938466~115938469~117549812~119456239~119456247&_tu=BA&gap.gtb=2&evnid=1781497334356_17814974911944&gcp=5"],"options":{}}
+
+event: message
+data: {"send_pixel":["${transport_url}/_/set_cookie?val=HDkX%2FEtcTUBTR8DPJ03ofweAHKKCTUhpmS5PP1whyX5QdnTIWKzf9Nh7%2FVrd81C3CDFodUOmJ4aMBtRm7ODuIC3uzv9kHGCnOxVlq4sfXId0arpaoxPdErMoMax8JBJ6iBTAX7lDQMkG%2F%2B2PENjJuyLYGLxrCzxMQzuk6qxmsJhGi8N9%2FRsaJYYr4dyl7wUe0wYunzkI5sBAghu%2BV2FgbYxTwr6wPg3A%2BGN6lSpFsF6UiEnd10%2BfEsMdKrjZSDO9MQ%3D%3D&path=${encoded_path}"]}
+
+event: message
+data: {"send_pixel":["https://analytics.google.com/g/s/collect?dma=0&npa=0&gcd=13l3l3l3l1l1&gtm=45h91e66a1v9168638634z872160974z99229555965za20kzb72160974zd72160974&tag_exp=115938466~115938469~117549812~117549812~119456239~119456247&_is_sw=0&_tu=BA&gap.gtb=2&_gsid=DD7R2B8GWPkpK8Q9EEDu-y_i1mu-vkPQ"],"options":{}}
+
+event: message
+data: {"send_pixel":["https://stats.g.doubleclick.net/g/collect?v=2&dma=0&npa=0&gcd=13l3l3l3l1l1&tid=G-DD7R2B8GWP&cid=%2BvpIutJH3ExfQvZtWfYHdvdiA7Yh7T8yZ9m6RGPDGB0%3D.1781496895&gtm=45h91e66a1v9168638634z872160974z99229555965za20kzb72160974zd72160974&tag_exp=115938466~115938469~117549812~117549812~119456239~119456247&_is_sw=0&_tu=BA&gap.gtb=2&aip=1"],"options":{}}
+
+event: message
+data: {"send_pixel":["https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16810168869/?random=664047446&fst=1781496895080&cv=10&fmt=3&bg=ffffff&guid=ON&u_w=1920&u_h=1080&gtm=45h91e66a1v9168638634z872160974z99229555965za20kzb72160974zd72160974&url=https%3A%2F%2Fwww.compararsegurodeviagem.com.br%2Fseguro-viagem-para-intercambio%2F&tiba=Comparar%20Seguro%20de%20Viagem%20-%20Interc%C3%A2mbio&auid=331933952.1781496895&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=8&dma=0&npa=0&gcd=13l3l3l3l1l1&pscdl=noapi&_is_sw=0&tag_exp=115938466~115938469~117549812~119456239~119456247&_tu=BA&gap.gtb=2&evnid=1781497334356_17814974911944"],"options":{}}
+
+event: message
+data: {"fetch":["https://www.google.com/rmkt/collect/16810168869/?random=664047446&fst=1781496895080&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=1920&u_h=1080&gtm=45h91e66a1v9168638634z872160974z99229555965za20kzb72160974zd72160974&url=https%3A%2F%2Fwww.compararsegurodeviagem.com.br%2Fseguro-viagem-para-intercambio%2F&tiba=Comparar%20Seguro%20de%20Viagem%20-%20Interc%C3%A2mbio&auid=331933952.1781496895&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=8&dma=0&npa=0&gcd=13l3l3l3l1l1&pscdl=noapi&_is_sw=0&tag_exp=115938466~115938469~117549812~119456239~119456247&_tu=BA&gap.gtb=2&evnid=1781497334356_17814974911944&gcp=5"],"options":{}}
+
+event: message
+data: {"response":{"status_code":200,"body":""}}
+

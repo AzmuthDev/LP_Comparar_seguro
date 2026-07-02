@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><script data-offline-runtime="1">(function(){
+var D = {"entries": [{"b": "eyJpcCI6IjE1Mi41NS4xODAuOCJ9", "t": "application/json"}, {"b": "eyJmb3VuZCI6ZmFsc2UsIm1lc3NhZ2UiOiJTZXNzaW9uIG5vdCBmb3VuZCJ9", "t": "application/json"}, {"b": "ewogICJpcFN0cmluZyI6ICIxNTIuNTUuMTgwLjgiLAogICJpcFR5cGUiOiAiSVB2NCIKfQ==", "t": "application/json"}, {"b": "eyJzdWNjZXNzIjoxLCJpZCI6IjExMTI2MjEiLCJzaWQiOiJlOWF0c3gxMDh1Zzg3aHUxeHF6eXl4dyIsImRldmljZV9pZCI6ImU5YXRzeDEwOHVnODdodTF4cXp5eXh3IiwiZXZlbnRzIjpbZmFsc2VdfQ==", "t": "application/json"}, {"b": "eyJ2aXNpdG9yX2lkIjoiY2I3YjMyYmQtZWY0Ni00ZmUyLTk2YzEtN2YxMDVmNzk2MzQ5In0=", "t": "application/json"}, {"b": "eyJ3b3Jrc3BhY2VfaWQiOiIwZmI1NmM4OC0xNzMzLTRkZTMtODJmNi02Y2ZlMzFlMTVmZDciLCJ2ZXJzaW9uIjowLCJ0YWdzIjpbXX0=", "t": "application/json"}, {"b": "eyJpbnRlZ3JhdGlvbnMiOlt7InBsYXRmb3JtIjoiZWR1enoiLCJ0cmFja2luZ19jb2RlIjoiMTE4NDk2ZTJiNjllIn0seyJwbGF0Zm9ybSI6InZvb21wIiwidHJhY2tpbmdfY29kZSI6IjExODRlZTMxZWQ0NCJ9LHsicGxhdGZvcm0iOiJhc2FhcyIsInRyYWNraW5nX2NvZGUiOiI4NGI0MWMwNzA1ZTgifSx7InBsYXRmb3JtIjoia2lydmFubyIsInRyYWNraW5nX2NvZGUiOiI2MDc0MTFiYTg3MmMifSx7InBsYXRmb3JtIjoic2hvcGlmeSIsInRyYWNraW5nX2NvZGUiOiJkYjY0YWM2NmYzZDkifV0sImV2ZW50X3J1bGVzIjpbeyJpZCI6Ijc5NDk2MzIxLThkNDAtNDY4Zi05MGNlLWIzOWQzYWVmMGE3YiIsIm5hbWUiOiJ3aGF0c2FwcCIsInRyaWdnZXJfdHlwZSI6ImNsaWNrX3VybCIsInRyaWdnZXJfdmFsdWUiOiJ3YVxcLm1lfGFwaVxcLndoYXRzYXBwXFwuY29tIiwiaXNfY29udmVyc2lvbl9rZXkiOmZhbHNlfV19", "t": "application/json"}, {"b": "eyJ0cmFja2luZ19lbmFibGVkIjp0cnVlLCJpcF9ibG9ja2VkIjpmYWxzZX0=", "t": "application/json"}, {"b": "eyJvayI6dHJ1ZSwic2Vzc2lvbl9pZCI6ImI0YWFjOTEwLTFhOGYtNGJlYy1hNmJjLTM2ZDZiM2Q5ODU1MiJ9", "t": "application/json"}], "keys": {"https://api.ipify.org/?format=json": 0, "https://api.ipify.org/": 0, "https://trackings.nemu.com.br/trackings/TM8Y6wjbm8/sessions?clientHash=cae157631a09912b7675d2609a4ac8a6&clientSessionId=undefined": 1, "https://trackings.nemu.com.br/trackings/TM8Y6wjbm8/sessions": 1, "https://api.bigdatacloud.net/data/client-ip": 2, "https://mkt.compararsegurodeviagem.com.br/mtc/event": 3, "https://api.castnexo.com.br/id?vid=cb7b32bd-ef46-4fe2-96c1-7f105f796349": 4, "https://api.castnexo.com.br/id": 4, "https://api.castnexo.com.br/container/0fb56c88-1733-4de3-82f6-6cfe31e15fd7.json": 5, "https://api.castnexo.com.br/api/checkout-config?workspace_id=0fb56c88-1733-4de3-82f6-6cfe31e15fd7": 6, "https://api.castnexo.com.br/api/checkout-config": 6, "https://api.castnexo.com.br/api/workspace-config?workspace_id=0fb56c88-1733-4de3-82f6-6cfe31e15fd7": 7, "https://api.castnexo.com.br/api/workspace-config": 7, "https://api.castnexo.com.br/collect": 8}};
+var E = D.entries, K = D.keys;
+function entry(u){
+  if (!u) return null;
+  if (K[u] != null) return E[K[u]];
+  try {
+    var x = new URL(u, location.href);
+    if (K[x.href] != null) return E[K[x.href]];
+    var op = x.origin + x.pathname;
+    if (K[op] != null) return E[K[op]];
+  } catch(e){}
+  return null;
+}
+function bytes(e){
+  var s = atob(e.b), a = new Uint8Array(s.length);
+  for (var i=0;i<s.length;i++) a[i] = s.charCodeAt(i);
+  return a;
+}
+window.__offlineDataUri = function(u){
+  var e = entry(u);
+  return e ? ('data:' + e.t + ';base64,' + e.b) : null;
+};
+var _fetch = window.fetch;
+if (_fetch) window.fetch = function(input, init){
+  try {
+    var u = (typeof input === 'string') ? input : (input && input.url);
+    var e = entry(u);
+    if (e) return Promise.resolve(new Response(bytes(e),
+      { status:200, headers:{'Content-Type': e.t} }));
+  } catch(err){}
+  return _fetch.apply(this, arguments);
+};
+var _open = XMLHttpRequest.prototype.open;
+XMLHttpRequest.prototype.open = function(m, u){
+  try { this.__offUrl = u; } catch(e){}
+  return _open.apply(this, arguments);
+};
+var _send = XMLHttpRequest.prototype.send;
+XMLHttpRequest.prototype.send = function(){
+  var e = entry(this.__offUrl);
+  if (!e) return _send.apply(this, arguments);
+  var self = this, txt = atob(e.b);
+  setTimeout(function(){
+    try {
+      Object.defineProperty(self,'readyState',{value:4,configurable:true});
+      Object.defineProperty(self,'status',{value:200,configurable:true});
+      Object.defineProperty(self,'responseText',{value:txt,configurable:true});
+      Object.defineProperty(self,'response',{value:txt,configurable:true});
+    } catch(err){}
+    if (typeof self.onreadystatechange === 'function') self.onreadystatechange();
+    if (typeof self.onload === 'function') self.onload();
+  }, 0);
+};
+})();</script><script data-offline-resolve="1">(function(){
+var ASSET_MAP = {"https://www.compararsegurodeviagem.com.br/seguro-viagem-para-intercambio/": "assets/eb8e59cc10542278_file.html", "https://www.compararsegurodeviagem.com.br/assets/css/mini-default.min.css?v=2": "assets/404149233b56af84_mini-default.min.css", "https://www.compararsegurodeviagem.com.br/assets/css/owl.theme.default.min.css": "assets/924b0dc630d1c5df_owl.theme.default.min.css", "https://www.compararsegurodeviagem.com.br/images/logo.png": "assets/5c71fc5d91b8b11f_logo.png", "https://www.compararsegurodeviagem.com.br/images/award-solid-black.png": "assets/1cc1e75de9db4321_award-solid-black.png", "https://www.compararsegurodeviagem.com.br/images/card-visa.png": "assets/fad3ec24bd851081_card-visa.png", "https://www.compararsegurodeviagem.com.br/assets/css/owl.carousel.min.css": "assets/521410e1fc447800_owl.carousel.min.css", "https://www.compararsegurodeviagem.com.br/stylesheets/pages-icons.css": "assets/941c82d72974047d_pages-icons.css", "https://www.compararsegurodeviagem.com.br/images/card-master.png": "assets/afbac687706f67bc_card-master.png", "https://www.compararsegurodeviagem.com.br/images/card-amex.png": "assets/34d2e8f02b64c94c_card-amex.png", "https://www.compararsegurodeviagem.com.br/images/card-diners.png": "assets/c1753f5fca2f1a89_card-diners.png", "https://www.compararsegurodeviagem.com.br/images/card-elo.png": "assets/7c3f45a1f942d0f7_card-elo.png", "https://www.compararsegurodeviagem.com.br/images/card-hipercard.png": "assets/972ad8eb2251a01e_card-hipercard.png", "https://www.compararsegurodeviagem.com.br/images/boleto.png": "assets/cc9b804007065854_boleto.png", "https://www.compararsegurodeviagem.com.br/images/pix.png": "assets/9c8fa80a6c993ba1_pix.png", "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js": "assets/5f1ab65fe2ad6b38_jquery.min.js", "https://trackings.nemu.com.br/trackings/TM8Y6wjbm8/script.js": "assets/20b8e1de622fd881_script.js", "https://www.compararsegurodeviagem.com.br/assets/js/owl.carousel.min.js": "assets/a53c43f834b32309_owl.carousel.min.js", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/affinity-seguro-viagem.png": "assets/d500c5e4e8f3d2b2_affinity-seguro-viagem.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/assist-card.png": "assets/7a23ca0515f394ca_assist-card.png", "https://www.compararsegurodeviagem.com.br/assets/js/litepicker-min.js": "assets/31a115ad444503f8_litepicker-min.js", "https://www.compararsegurodeviagem.com.br/assets/js/utms.js?v=725d632": "assets/2097cac4770cf4f3_utms.js", "https://www.compararsegurodeviagem.com.br/front/javascripts/validaData.js?v=725d632": "assets/20849121e34f0d90_validaData.js", "https://www.compararsegurodeviagem.com.br/assets/js/indexNovo.js?v=725d632": "assets/f773db67f71fa896_indexNovo.js", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/Hero-seguros.png": "assets/c1f84679a3019359_Hero-seguros.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/vetra-seguros.png": "assets/f62cd115947e99c6_vetra-seguros.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/nest-seguro-viagem-logo.png": "assets/3a0385cb7d57e49f_nest-seguro-viagem-logo.png", "https://www.compararsegurodeviagem.com.br/fonts/Pages-icon.woff?-u69vo5": "assets/55d1ee9d9ca67941_Pages-icon.woff", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/universal-assistance.png": "assets/ff0aa3dca7548f74_universal-assistance.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/welcome-assist.png": "assets/ddc1499d95ad2c79_welcome-assist.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/coris-seguro-viagem.png": "assets/b18e0fd33d0d31ff_coris-seguro-viagem.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/ita.png": "assets/6ecdcab0f1c8018b_ita.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/gta.png": "assets/a6ab452680e73118_gta.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/intermac-seguro-viagem.png": "assets/78728dedf7f291f2_intermac-seguro-viagem.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/my-travel-assist.png": "assets/8bf8a38415c51bd0_my-travel-assist.png", "https://www.compararsegurodeviagem.com.br/assets/img/seguradoras/ciclic-seguro-viagem.png": "assets/79237034bdce7941_ciclic-seguro-viagem.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/intercambio.png": "assets/4c31e57a8f096dbc_intercambio.png", "https://openfpcdn.io/fingerprintjs/v4": "assets/dceecee491e0029e_v4.js", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-plain.png": "assets/b569eb5239b05a42_icon-plain.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-24h.png": "assets/6566a5fe2cb6d467_icon-24h.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-odonto.png": "assets/2d5d406281318a1e_icon-odonto.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-bagagem.png": "assets/60332dcea0e25738_icon-bagagem.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-farmacia.png": "assets/51a09172cf1b282f_icon-farmacia.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-medico.png": "assets/a99cadadd9aa4ad1_icon-medico.png", "https://www.compararsegurodeviagem.com.br/images/5estrelas.png": "assets/4e2311eb83e2d871_5estrelas.png", "https://www.compararsegurodeviagem.com.br/images/reclameaqui.png": "assets/f25673ad6c5baaa9_reclameaqui.png", "https://api.ipify.org/?format=json": "assets/ef8d7e8b6cc9c23a_file.json", "https://ipinfo.io/ip": "assets/193d5ea684cd3618_ip", "https://trackings.nemu.com.br/trackings/TM8Y6wjbm8/sessions?clientHash=cae157631a09912b7675d2609a4ac8a6&clientSessionId=undefined": "assets/2355ed388f4eda63_sessions.json", "https://api.bigdatacloud.net/data/client-ip": "assets/ff7261fb7d4792b5_client-ip.json", "https://cdn.bitrix24.com.br/b23025923/crm/form/loader_20.js?9897204": "assets/9414ede653f67c0a_loader_20.js", "https://cdn.bitrix24.com.br/b23025923/crm/form/app.js?20619": "assets/a868a9b9c7a19293_app.js", "https://compararsegurodeviagem.bitrix24.com.br/bitrix/js/crm/site/form/dist/app.bundle.min.css?20619": "assets/6b06f8a9b188d041_app.bundle.min.css", "https://compararsegurodeviagem.bitrix24.com.br/bitrix/js/crm/site/form/dist/app.bundle.min.js?20619": "assets/c9847938e43158b8_app.bundle.min.js", "https://gtm.compararsegurodeviagem.com.br/9pyucrqyc.js?1k=Ch1MNTc4VD1XKSc4N1MPTVFXQFQHG0QTDBQBExEUCwMGHgQADBEcBgoYFhcOWxofDlcTAA%3D%3D": "assets/574fa92ce387759e_9pyucrqyc.js", "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=D0V5K5BC77U8DLIL3DBG&lib=ttq": "assets/7795d08a93eecffb_events.js", "https://analytics.tiktok.com/i18n/pixel/static/main.MTA0ZjhhMzAwOQ.js": "assets/6fa11e86473d8b68_main.MTA0ZjhhMzAwOQ.js", "https://analytics.tiktok.com/i18n/pixel/static/identify_9ff9a7bf.js": "assets/c222a1fcf344eb3b_identify_9ff9a7bf.js", "https://mkt.compararsegurodeviagem.com.br/mtc.js": "assets/1539a35dc6ec54e2_mtc.js", "https://gtm.compararsegurodeviagem.com.br/gtm.js?id=GTM-M4PVJT&gtg_health=1": "assets/c24c8a68f1ffcf9b_gtm.js", "https://mkt.compararsegurodeviagem.com.br/mtc/event": "assets/4c4e4028361aeaed_event.json", "https://gtm.compararsegurodeviagem.com.br/9pyucrqyc/e?8599de87=L2d0YWcvanM%2FaWQ9Ry1ERDdSMkI4R1dQJmN4PWMmZ3RtPTRlNjZhMQ%3D%3D": "assets/b44f188036735026_e.js", "https://tracker.castnexo.com.br/script/latest.js": "assets/797eaba262198774_latest.js", "https://tracker.castnexo.com.br/script/v2.60.0.js": "assets/fcbf4a350532374d_v2.60.0.js", "https://gtm.compararsegurodeviagem.com.br/9pyucrqyc/e?8599de87=L2d0YWcvanM%2FaWQ9QVctOTIzMzE0MTUzJmN4PWMmZ3RtPTRlNjZhMQ%3D%3D": "assets/cd8708f9a24be148_e.js", "https://www.google.com/pagead/1p-user-list/923314153/?random=1781496895040&cv=11&fst=1781496000000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=459e66a1v9116794774z872160974za20kzb72160974zd72160974xec&gcd=13l3l3R3l5l1&dma=0&tag_exp=115616986~115938466~115938469~117776794~119456239~119456247&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.compararsegurodeviagem.com.br%2Fseguro-viagem-para-intercambio%2F&rcb=7&frm=0&tiba=Comparar%20Seguro%20de%20Viagem%20-%20Interc%C3%A2mbio&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1418983247.1781496895&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&gap.gtb=2&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgVA4mTTO8HdslrxEkCDOHm8Yxp-oLmWC3TJw1_RUyizvhT1bKVUGrFBuhX6nINYGquN-1BkEkvqZyft-uqnC2-lZ0Dbtb5FA4259ASHjdoYaKeCyHe0gVD0XFNXc3pw-zFi4lLEKysVI6SEIU2I0eyxkwbXtQ_ycHvHjM7PK1cuy4DlFUMy7oZrK9vKzqE3g88h6ry9cl9AmXZq_Cy0xWhVMMwT4k1M65ZouYvdcAlcE2Cn0MbWAmvZGtlZCRP_ySfasITV-8RNYFRWlrQtY&random=829250976&rmt_tld=0&ipr=y": "assets/ef1955ae757c8b96_file.gif", "https://gtm.compararsegurodeviagem.com.br/_/service_worker/6631/sw_iframe.html?origin=https%3A%2F%2Fwww.compararsegurodeviagem.com.br&1p=1": "assets/9a60ef8786444f42_sw_iframe.html", "https://capi-automation.s3.us-east-2.amazonaws.com/public/client_js/capiParamBuilder/clientParamBuilder.bundle.js": "assets/2a6eb27150e9c27e_clientParamBuilder.bundle.js", "https://www.google.com/pagead/1p-user-list/16810168869/?random=664047446&fst=1781496000000&cv=10&fmt=3&bg=ffffff&guid=ON&u_w=1920&u_h=1080&gtm=45h91e66a1v9168638634z872160974z99229555965za20kzb72160974zd72160974&url=https%3A%2F%2Fwww.compararsegurodeviagem.com.br%2Fseguro-viagem-para-intercambio%2F&tiba=Comparar%20Seguro%20de%20Viagem%20-%20Interc%C3%A2mbio&auid=331933952.1781496895&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=8&dma=0&npa=0&gcd=13l3l3l3l1l1&pscdl=noapi&_is_sw=f15s0t1&tag_exp=115938466~115938469~117549812~119456239~119456247&_tu=BA&gap.gtb=2&evnid=1781497334356_17814974911944&is_vtc=1&cid=CAQS4QEAEQoqgdS7TQfsXRxHgNlty7HkWI_sFyOQr4DCkX9n4_G101b60kFDj2VpGQpiQXOz1zjuqckhi7n6QCmcEq70OTMRNIp5gVIWLeVOM8QTO1S39D7BJpABLH8sD7rQoUpknJSR1LQYwG8E0S42lsO0xNlYg06cdhetsOvd6Crr4TrGN8yZ9fAxZYm6juM0EqkhV6jxK-K5dDsWlqrRvF84ixh_6S_NAC4HoPlaIZc-DHMQeZIcS358-YT0Zlnk2jRgHB8GUEbGLk-yQe93xLut4aVlCRVUn0gSleEk7w9zc4c&random=92667484": "assets/ef1955ae757c8b96_file.gif", "https://www.google.com/pagead/1p-user-list/923314153/?random=938709954&fst=1781496000000&cv=10&fmt=3&bg=ffffff&guid=ON&u_w=1920&u_h=1080&gtm=45h91e66a1v9168638634z872160974z99229555965za20kzb72160974zd72160974&url=https%3A%2F%2Fwww.compararsegurodeviagem.com.br%2Fseguro-viagem-para-intercambio%2F&tiba=Comparar%20Seguro%20de%20Viagem%20-%20Interc%C3%A2mbio&auid=331933952.1781496895&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=8&dma=0&npa=0&gcd=13l3l3l3l1l1&pscdl=noapi&_is_sw=f15s0t1&tag_exp=115938466~115938469~117549812~119456239~119456247&_tu=BA&gap.gtb=2&evnid=1781497334356_17814974911944&is_vtc=1&cid=CAQS4QEAEQoqgavt7ON3yy06rtYDDfuuvmuob-Q7Q6oI9c85UKoVQpCELQgGP0NlEDrW0XhYU-_zSEZnUO2TrZjCsOUa_pw-EnImkfEq1W9Y-mz0WpoRiuhZZdhbe34qjCFIr3X6hVVR9yGh768hqqTsUHv-pcI6pp2g-InCDS5fM1dwwdzJjDRJMZUPwaejKw0dR2Yj74SuR0KRHZc8aYW4SUQnITizp0h5HxLo1X17ordhp2Al05DmJ1DSgcNmY829N-KUWbeG0c7zneRgOcYAVCSFts0VNOmOyh7Y8fU8jy7NI08&random=3155741210": "assets/ef1955ae757c8b96_file.gif", "https://api.castnexo.com.br/id?vid=cb7b32bd-ef46-4fe2-96c1-7f105f796349": "assets/f42bbec36857cb0b_id.json", "https://api.castnexo.com.br/container/0fb56c88-1733-4de3-82f6-6cfe31e15fd7.json": "assets/def6d47cc9cad0c6_0fb56c88-1733-4de3-82f6-6cfe31.json", "https://api.castnexo.com.br/api/checkout-config?workspace_id=0fb56c88-1733-4de3-82f6-6cfe31e15fd7": "assets/e93e41c687436783_checkout-config.json", "https://api.castnexo.com.br/api/workspace-config?workspace_id=0fb56c88-1733-4de3-82f6-6cfe31e15fd7": "assets/56a17ad4e9d58118_workspace-config.json", "https://api.castnexo.com.br/collect": "assets/9a20d30ef2693350_collect.json", "https://gtm.compararsegurodeviagem.com.br/9pyucrqyc?8599de87=L2cvY29sbGVjdD92PTImdGlkPUctREQ3UjJCOEdXUCZndG09NDVoZTY2YTF2OTE2ODYzODYzNHo4NzIxNjA5NzR6YTIwa3piNzIxNjA5NzR6ZDcyMTYwOTc0Jl9wPTE3ODE0OTY4OTMwODkmZ2NkPTEzbDNsM2wzbDFsMSZucGE9MCZkbWE9MCZlY2lkPTk3OTgwNjI4NCZfZXU9QUFBQUFHQSZfZnBsYz0wJmFyZT0xJmNpZD00OTg2OTEwMy4xNzgxNDk2ODk1JmVjX21vZGU9YSZmcm09MCZwc2NkbD1ub2FwaSZyY2I9OCZzcj0xOTIweDEwODAmdWFhPXg4NiZ1YWI9NjQmdWFmdmw9Q2hyb21pdW0lM0IxNDguMC43Nzc4Ljk2JTdDSGVhZGxlc3NDaHJvbWUlM0IxNDguMC43Nzc4Ljk2JTdDTm90JTI1MkZBKUJyYW5kJTNCOTkuMC4wLjAmdWFtPSZ1YW1iPTAmdWFwPW1hY09TJnVhcHY9MTBfMTVfNyZ1YXc9MCZ1bD1lbi11cyZ1cj1VUyZzc3QudGZ0PTE3ODE0OTY4OTMwODkmc3N0LmxwYz0xMDE1MDI2MTEmc3N0Lm5hdnQ9biZzc3QudWRlPTEmc3N0LnN3X2V4cD0xJmdhZj0yJl9zPTEmdGFnX2V4cD0xMTU5Mzg0NjZ%2BMTE1OTM4NDY5fjExOTQ1NjIzOX4xMTk0NTYyNDcmc2lkPTE3ODE0OTY4OTQmc2N0PTEmc2VnPTAmZGw9aHR0cHMlM0ElMkYlMkZ3d3cuY29tcGFyYXJzZWd1cm9kZXZpYWdlbS5jb20uYnIlMkZzZWd1cm8tdmlhZ2VtLXBhcmEtaW50ZXJjYW1iaW8lMkYmZHQ9Q29tcGFyYXIlMjBTZWd1cm8lMjBkZSUyMFZpYWdlbSUyMC0lMjBJbnRlcmMlQzMlQTJtYmlvJl90dT1CQSZlbj1wYWdlX3ZpZXcmX2Z2PTEmX25zaT0xJl9zcz0xJmdhcC5ndGI9MiZlcC5lbWFpbD0mZXAudGVsZWZvbmU9JmVwLnByaW1laXJvX25vbWU9JmVwLnVsdGltb19ub21lPSZlcC5lbmRlcmVjbz0mZXAuY2VwPSZlcC5jaWRhZGU9JmVwLmVzdGFkbz0mZXAucGFpcz1CUiZlcG4uZXZlbnRfdGltZT0xNzgxNDk2ODk0JmV2bmlkPTE3ODE0OTczMzQzNTZfMTc4MTQ5NzQ5MTE5NDQmZXAuZ2VuZXJvPSZlcC51dG1fc291cmNlPSZlcC51dG1fY2FtcGFpZ249JmVwLnV0bV9tZWRpdW09JmVwLnV0bV9jb250ZW50PSZlcC51dG1fdGVybT0mdGZkPTQ1OTYmcmljaHNzdHNzZQ%3D%3D": "assets/64850a900af2c67c_9pyucrqyc", "https://www.compararsegurodeviagem.com.br/images/favicon.png": "assets/5b4995ffa8da0321_favicon.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-america-do-norte.png": "assets/09ea30632ced62bc_icon-america-do-norte.png", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/a2f11b77d28d95ddb39f9535ae0852c1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=fb4e0350728d4548b8e263bd57fce0ac55fbd16496f97c802337303648bcb1e8&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/a7bcc5991bba9321_a2f11b77d28d95ddb39f9535ae0852.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-estados-unidos.png": "assets/a8b8ba55e37aabe5_icon-estados-unidos.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-intercambio.png": "assets/8caf11a4dc01ba67_icon-intercambio.png", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/4106accbc7b7c9c73ac55b300bd32889.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=0e200ed92f556e80b5fd15c6d9d3d6f7c60f22f57257ddf2ea375739bd00683b&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/c76a1c6c0757bc40_4106accbc7b7c9c73ac55b300bd328.png", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/5c7f2f398382913dee5d56f2fcf6d84f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=315e5a550d2517d39a1d5e464787b8eb631f6283fe7b0f05cceca99d1490fab1&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/5a6d97ce2de974e9_5c7f2f398382913dee5d56f2fcf6d8.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-europa.png": "assets/d02872e1ea1a8e20_icon-europa.png", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/edcef00607f2521b407e8d4ab4c0112b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=f4710b9c3cac34f156894019334fb97a4e91fca249830d3b741a3c81b5a3a1f1&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/f729d98c094b2288_edcef00607f2521b407e8d4ab4c011.png", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/90b40d7e70e58384ede0c39496196775.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=3951999ca54039ed396cb7a252388b5d9a8ebc06519eaf24c3220448629559e8&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/410511e5928911b6_90b40d7e70e58384ede0c394961967.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-esporte.png": "assets/8f2ba4df7f09bf0a_icon-esporte.png", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/a6a2e3c37af71a6abaa41127d1b28789.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=35a59fd639641f47f3fc316b4fa21e62a461813184822bcf2630bff5c41cbe3a&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/799664555009c8ec_a6a2e3c37af71a6abaa41127d1b287.png", "https://www.compararsegurodeviagem.com.br/": "assets/cc0f5523551c9f2d_file.html", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/c5bf9f09a81535f400db072870f360f3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=6c6451f92103b1ca8f71ba2bdb1100caf019f5d9a37eeecc4f48a275c9d20dbc&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/b96113046dbfc2d1_c5bf9f09a81535f400db072870f360.png", "https://www.compararsegurodeviagem.com.br/images/preloader.gif": "assets/67c0e7b1558bd6ca_preloader.gif", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-idoso.png": "assets/da239e70a2ba8fd1_icon-idoso.png", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/6cf96adcb43802cdd7c378f60ebc4e16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=fe15ece1f402075f3f011e6f5b8fad91881a879c5a96ee81ef1fcbd85c729cae&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/8845d4cef4585724_6cf96adcb43802cdd7c378f60ebc4e.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-esqui.png": "assets/f900fc892794c66b_icon-esqui.png", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/8bfcc796478f9895b84c65949a34fd04.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=6809c4dc57a16da7fd89cb2b7bec43df7fe9538c23c9f6997a1d20388f699f4c&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/0a6b7017be5a4fe5_8bfcc796478f9895b84c65949a34fd.png", "https://www.compararsegurodeviagem.com.br/images/landingpage/icon-america-latina.png": "assets/87bc6bafe9a64b14_icon-america-latina.png", "https://s3.compararsegurodeviagem.com.br/comparar/avaliacoes/cd618e4fbf60e097cea1cc9f4d92f6c1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=TdKXA2dUrmZRd3mqd3NC%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T041450Z&X-Amz-Expires=300&X-Amz-Signature=06f089c4fdc63a5f48da255dcf2d34a978455132c31af850e074cdc3eab29e52&X-Amz-SignedHeaders=host&x-id=GetObject": "assets/b99ae3a5c6a4884f_cd618e4fbf60e097cea1cc9f4d92f6.png"};
+// Pre-populate path+query keys: when opened via file://, JS
+// resolves '/foo.js' against file://… so we lose the original
+// origin. Indexing by pathname+search lets the lookup succeed.
+var _add = {};
+for (var _k in ASSET_MAP) {
+  try { var _u = new URL(_k); _add[_u.pathname + _u.search] = ASSET_MAP[_k]; }
+  catch(e){}
+}
+for (var _k in _add) if (!ASSET_MAP[_k]) ASSET_MAP[_k] = _add[_k];
+function resolveLocal(u){
+  if (!u || typeof u !== 'string') return null;
+  if (u.indexOf('data:') === 0 || u.indexOf('blob:') === 0) return null;
+  if (ASSET_MAP[u]) return ASSET_MAP[u];
+  try {
+    var url = new URL(u, location.href);
+    var pq = url.pathname + url.search;
+    if (ASSET_MAP[pq]) return ASSET_MAP[pq];
+    // The snapshot may be opened from a subdirectory, while
+    // ASSET_MAP paths are origin-rooted. Retry with the
+    // document's own directory prefix stripped off.
+    var dir = location.pathname.replace(/[^/]*$/, '');
+    if (dir.length > 1 && pq.indexOf(dir) === 0) {
+      var rel = pq.slice(dir.length - 1);
+      if (ASSET_MAP[rel]) return ASSET_MAP[rel];
+    }
+    // Next.js image optimization wrapper — peel the inner CDN URL
+    if (/_next\/image$/.test(url.pathname)) {
+      var t = url.searchParams.get('url');
+      if (t) {
+        var dec = decodeURIComponent(t);
+        if (ASSET_MAP[dec]) return ASSET_MAP[dec];
+        var bare = dec.split('?')[0];
+        for (var k in ASSET_MAP) {
+          if (k.split('?')[0] === bare) return ASSET_MAP[k];
+        }
+      }
+    }
+  } catch(e){}
+  return null;
+}
+function rewriteSrcset(s){
+  if (!s || typeof s !== 'string') return s;
+  return s.split(',').map(function(it){
+    var p = it.trim().split(/\s+/);
+    var loc = resolveLocal(p[0]);
+    if (loc) p[0] = loc;
+    return p.join(' ');
+  }).join(', ');
+}
+// Patch property setters: el.src = '...' / el.href = '...'
+// IMPORTANT: skip rewrite when the element has crossOrigin set.
+// WebGL textures (UnicornStudio, Three.js, etc.) are loaded via
+//   img.crossOrigin = 'anonymous'; img.src = 'https://cdn/...'
+// and consumed via gl.texImage2D. file:// resources have no CORS
+// headers, so rewriting to local makes WebGL reject the texture
+// (Access blocked by CORS policy → black/missing 3D scene).
+// Better to keep the original URL: works online, fails offline,
+// matches non-patched behaviour.
+function patchSetter(klass, prop, transform){
+  if (!klass || !klass.prototype) return;
+  var desc = Object.getOwnPropertyDescriptor(klass.prototype, prop);
+  if (!desc || !desc.set) return;
+  Object.defineProperty(klass.prototype, prop, {
+    configurable: true,
+    get: desc.get,
+    set: function(v){
+      try {
+        if (transform === 'srcset') {
+          v = rewriteSrcset(v);
+        } else {
+          // Captured runtime resource (UnicornStudio texture,
+          // etc.) → serve as a data: URI. data: never CORS-
+          // taints a WebGL canvas, unlike a file:// texture,
+          // so gl.texImage2D still accepts it offline.
+          var du = window.__offlineDataUri && window.__offlineDataUri(v);
+          if (du) { v = du; }
+          else if (!this.crossOrigin) {
+            var loc = resolveLocal(v); if (loc) v = loc;
+          }
+        }
+      } catch(e){}
+      desc.set.call(this, v);
+    }
+  });
+}
+patchSetter(window.HTMLScriptElement, 'src');
+patchSetter(window.HTMLLinkElement, 'href');
+patchSetter(window.HTMLImageElement, 'src');
+patchSetter(window.HTMLImageElement, 'srcset', 'srcset');
+patchSetter(window.HTMLSourceElement, 'src');
+patchSetter(window.HTMLSourceElement, 'srcset', 'srcset');
+patchSetter(window.HTMLMediaElement, 'src');
+patchSetter(window.HTMLIFrameElement, 'src');
+// Patch setAttribute too — some libs use it instead of property set
+var _setAttr = Element.prototype.setAttribute;
+Element.prototype.setAttribute = function(name, value){
+  try {
+    if (typeof value === 'string') {
+      if (name === 'src' || name === 'href') {
+        var du = window.__offlineDataUri && window.__offlineDataUri(value);
+        if (du) { value = du; }
+        else if (!this.crossOrigin) {
+          var loc = resolveLocal(value); if (loc) value = loc;
+        }
+      } else if (name === 'srcset' && !this.crossOrigin) {
+        value = rewriteSrcset(value);
+      }
+    }
+  } catch(e){}
+  return _setAttr.call(this, name, value);
+};
+// Expose for the late-init script in body
+window.__resolveLocal = resolveLocal;
+window.__rewriteSrcset = rewriteSrcset;
+})();</script><style>:root{--litepicker-container-months-color-bg: #fff;--litepicker-container-months-box-shadow-color: #ddd;--litepicker-footer-color-bg: #fafafa;--litepicker-footer-box-shadow-color: #ddd;--litepicker-tooltip-color-bg: #fff;--litepicker-month-header-color: #333;--litepicker-button-prev-month-color: #9e9e9e;--litepicker-button-next-month-color: #9e9e9e;--litepicker-button-prev-month-color-hover: #2196f3;--litepicker-button-next-month-color-hover: #2196f3;--litepicker-month-width: calc(var(--litepicker-day-width) * 7);--litepicker-month-weekday-color: #9e9e9e;--litepicker-month-week-number-color: #9e9e9e;--litepicker-day-width: 38px;--litepicker-day-color: #333;--litepicker-day-color-hover: #2196f3;--litepicker-is-today-color: #f44336;--litepicker-is-in-range-color: #bbdefb;--litepicker-is-locked-color: #9e9e9e;--litepicker-is-start-color: #fff;--litepicker-is-start-color-bg: #2196f3;--litepicker-is-end-color: #fff;--litepicker-is-end-color-bg: #2196f3;--litepicker-button-cancel-color: #fff;--litepicker-button-cancel-color-bg: #9e9e9e;--litepicker-button-apply-color: #fff;--litepicker-button-apply-color-bg: #2196f3;--litepicker-button-reset-color: #909090;--litepicker-button-reset-color-hover: #2196f3;--litepicker-highlighted-day-color: #333;--litepicker-highlighted-day-color-bg: #ffeb3b}.show-week-numbers{--litepicker-month-width: calc(var(--litepicker-day-width) * 8)}.litepicker{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-size:0.8em;display:none}.litepicker button{border:none;background:none}.litepicker .container__main{display:-webkit-box;display:-ms-flexbox;display:flex}.litepicker .container__months{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;background-color:var(--litepicker-container-months-color-bg);border-radius:5px;-webkit-box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);width:calc(var(--litepicker-month-width) + 10px);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months.columns-2{width:calc((var(--litepicker-month-width) * 2) + 20px)}.litepicker .container__months.columns-3{width:calc((var(--litepicker-month-width) * 3) + 30px)}.litepicker .container__months.columns-4{width:calc((var(--litepicker-month-width) * 4) + 40px)}.litepicker .container__months.split-view .month-item-header .button-previous-month,.litepicker .container__months.split-view .month-item-header .button-next-month{visibility:visible}.litepicker .container__months .month-item{padding:5px;width:var(--litepicker-month-width);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months .month-item-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-weight:500;padding:10px 5px;text-align:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:var(--litepicker-month-header-color)}.litepicker .container__months .month-item-header div{-webkit-box-flex:1;-ms-flex:1;flex:1}.litepicker .container__months .month-item-header div>.month-item-name{margin-right:5px}.litepicker .container__months .month-item-header div>.month-item-year{padding:0}.litepicker .container__months .month-item-header .reset-button{color:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button>svg{fill:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button *{pointer-events:none}.litepicker .container__months .month-item-header .reset-button:hover{color:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .reset-button:hover>svg{fill:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .button-previous-month,.litepicker .container__months .month-item-header .button-next-month{visibility:hidden;text-decoration:none;padding:3px 5px;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__months .month-item-header .button-previous-month *,.litepicker .container__months .month-item-header .button-next-month *{pointer-events:none}.litepicker .container__months .month-item-header .button-previous-month{color:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month>svg,.litepicker .container__months .month-item-header .button-previous-month>img{fill:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month:hover{color:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-previous-month:hover>svg{fill:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month{color:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month>svg,.litepicker .container__months .month-item-header .button-next-month>img{fill:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month:hover{color:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month:hover>svg{fill:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-weekdays-row{display:-webkit-box;display:-ms-flexbox;display:flex;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;color:var(--litepicker-month-weekday-color)}.litepicker .container__months .month-item-weekdays-row>div{padding:5px 0;font-size:85%;-webkit-box-flex:1;-ms-flex:1;flex:1;width:var(--litepicker-day-width);text-align:center}.litepicker .container__months .month-item:first-child .button-previous-month{visibility:visible}.litepicker .container__months .month-item:last-child .button-next-month{visibility:visible}.litepicker .container__months .month-item.no-previous-month .button-previous-month{visibility:hidden}.litepicker .container__months .month-item.no-next-month .button-next-month{visibility:hidden}.litepicker .container__days{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:center;-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__days>div,.litepicker .container__days>a{padding:5px 0;width:var(--litepicker-day-width)}.litepicker .container__days .day-item{color:var(--litepicker-day-color);text-align:center;text-decoration:none;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__days .day-item:hover{color:var(--litepicker-day-color-hover);-webkit-box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover);box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover)}.litepicker .container__days .day-item.is-today{color:var(--litepicker-is-today-color)}.litepicker .container__days .day-item.is-locked{color:var(--litepicker-is-locked-color)}.litepicker .container__days .day-item.is-locked:hover{color:var(--litepicker-is-locked-color);-webkit-box-shadow:none;box-shadow:none;cursor:default}.litepicker .container__days .day-item.is-in-range{background-color:var(--litepicker-is-in-range-color);border-radius:0}.litepicker .container__days .day-item.is-start-date{color:var(--litepicker-is-start-color);background-color:var(--litepicker-is-start-color-bg);border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-flipped{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date{color:var(--litepicker-is-end-color);background-color:var(--litepicker-is-end-color-bg);border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date.is-flipped{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-end-date{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-highlighted{color:var(--litepicker-highlighted-day-color);background-color:var(--litepicker-highlighted-day-color-bg)}.litepicker .container__days .week-number{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:var(--litepicker-month-week-number-color);font-size:85%}.litepicker .container__footer{text-align:right;padding:10px 5px;margin:0 5px;background-color:var(--litepicker-footer-color-bg);-webkit-box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);border-bottom-left-radius:5px;border-bottom-right-radius:5px}.litepicker .container__footer .preview-date-range{margin-right:10px;font-size:90%}.litepicker .container__footer .button-cancel{background-color:var(--litepicker-button-cancel-color-bg);color:var(--litepicker-button-cancel-color);border:0;padding:3px 7px 4px;border-radius:3px}.litepicker .container__footer .button-cancel *{pointer-events:none}.litepicker .container__footer .button-apply{background-color:var(--litepicker-button-apply-color-bg);color:var(--litepicker-button-apply-color);border:0;padding:3px 7px 4px;border-radius:3px;margin-left:10px;margin-right:10px}.litepicker .container__footer .button-apply:disabled{opacity:0.7}.litepicker .container__footer .button-apply *{pointer-events:none}.litepicker .container__tooltip{position:absolute;margin-top:-4px;padding:4px 8px;border-radius:4px;background-color:var(--litepicker-tooltip-color-bg);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;font-size:11px;pointer-events:none;visibility:hidden}.litepicker .container__tooltip:before{position:absolute;bottom:-5px;left:calc(50% - 5px);border-top:5px solid rgba(0,0,0,0.12);border-right:5px solid transparent;border-left:5px solid transparent;content:""}.litepicker .container__tooltip:after{position:absolute;bottom:-4px;left:calc(50% - 4px);border-top:4px solid var(--litepicker-tooltip-color-bg);border-right:4px solid transparent;border-left:4px solid transparent;content:""}
+</style><script async="" src="assets/2a6eb27150e9c27e_clientParamBuilder.bundle.js" type="text/javascript"></script><script async="" src="assets/c222a1fcf344eb3b_identify_9ff9a7bf.js" type="text/javascript"></script><script async="" data-id="D0V5K5BC77U8DLIL3DBG" src="assets/6fa11e86473d8b68_main.MTA0ZjhhMzAwOQ.js" type="text/javascript"></script><script async="" src="https://scripts.clarity.ms/0.8.65/clarity.js"></script><script async="" src="assets/1539a35dc6ec54e2_mtc.js"></script><script async="" src="https://www.clarity.ms/tag/m39aj9vpco?ref=gtm2"></script><script async="" src="assets/7795d08a93eecffb_events.js" type="text/javascript"></script><script async="" src="https://connect.facebook.net/signals/config/178670095071787?v=2.9.338&amp;r=stable&amp;domain=www.compararsegurodeviagem.com.br&amp;hme=ed806287581422089c496fd485507306546b2937977788da80b80247d3e2e94b&amp;ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js" type="text/javascript"></script><script async="" src="assets/c24c8a68f1ffcf9b_gtm.js" type="text/javascript"></script><script async="" src="assets/cd8708f9a24be148_e.js" type="text/javascript"></script><script async="" src="assets/b44f188036735026_e.js" type="text/javascript"></script><script async="" src="assets/574fa92ce387759e_9pyucrqyc.js"></script><script async="" src="assets/9414ede653f67c0a_loader_20.js"></script><script async="" src="assets/9414ede653f67c0a_loader_20.js"></script><script>var userLoggedIn = false
+</script><script>var lp_tipo = "Seguro viagem com &lt;b&gt;coberturas compatíveis&lt;/b&gt; ao &lt;b&gt;seu perfil&lt;/b&gt; e país do intercâmbio."
+</script><script>var lp_tipo_palavra = "intercâmbio"
+</script><script>if(userLoggedIn == false) {
+    window.onload = function() {
+        const caminho = window.location.pathname;
+        var tempo = 1000
+        if(caminho == '/lp1' || caminho == '/lp2') {
+            tempo = 0
+        }
+        setTimeout(() => {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://gtm.compararsegurodeviagem.com.br/9pyucrqyc.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','1k=Ch1MNTc4VD1XKSc4N1MPTVFXQFQHG0QTDBQBExEUCwMGHgQADBEcBgoYFhcOWxofDlcTAA%3D%3D');
+        }, tempo)
+    }
+} 
+</script><script async="" data-tracking-id="TM8Y6wjbm8" src="assets/20b8e1de622fd881_script.js"></script><title>Comparar Seguro de Viagem - Intercâmbio</title><link href="assets/404149233b56af84_mini-default.min.css" rel="stylesheet"/>
+<link href="assets/521410e1fc447800_owl.carousel.min.css" rel="stylesheet"/>
+<link href="assets/924b0dc630d1c5df_owl.theme.default.min.css" rel="stylesheet"/><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" name="viewport"/><meta content="public" http-equiv="Cache-control"/><meta content="z8q58ymmctmelddjbnkq13xan2m7o6" name="facebook-domain-verification"/><meta content="Encontre online o Melhor Seguro Viagem, das Melhores Seguradoras, pelo Menor Preço para sua viagem Internacional ou Nacional ter mais Tranquilidade e Segurança. Comparar Seguro de Viagem." name="description"/><meta content="seguro, viagem, seguro de viagem, comparação, comparação de seguro, seguros" name="keywords"/><link href="assets/5b4995ffa8da0321_favicon.png" rel="icon" type="image/png"/><link href="assets/eb8e59cc10542278_file.html" rel="canonical"/><link href="assets/cc0f5523551c9f2d_file.html" hreflang="pt-br" rel="alternate"/><meta content="Q4lsszZ6SrbXsyPXccyoXJ7OZzN0mbuawrzIsf8C5Ks" name="google-site-verification"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="yes" name="apple-touch-fullscreen"/><meta content="default" name="apple-mobile-web-app-status-bar-style"/><meta content="FA3359D8F486B124535C46E3140CAE18" name="msvalidate.01"/><meta content="IE=edge" http-equiv="X-UA-Compatible"/><!-- Facebook--><meta content="Comparação de Seguros de Viagem" property="og:title"/><meta content="website" property="og:type"/><meta alt="Banner footer" content="https://www.compararsegurodeviagem.com.br/images/banner_5.jpg" property="og:image"/><meta content="https://www.compararsegurodeviagem.com.br" property="og:url"/><meta content="Encontre online o Melhor Seguro Viagem, das Melhores Seguradoras, pelo Menor Preço para sua viagem Internacional ou Nacional ter mais Tranquilidade e Segurança. Comparar Seguro de Viagem." property="og:description"/><!-- Twitter--><meta content="summary" name="twitter:card"/><meta content="https://www.compararsegurodeviagem.com.br" name="twitter:url"/><meta content="Comparação de Seguros de Viagem" name="twitter:title"/><meta content="Encontre online o Melhor Seguro Viagem, das Melhores Seguradoras, pelo Menor Preço para sua viagem Internacional ou Nacional ter mais Tranquilidade e Segurança. Comparar Seguro de Viagem." name="twitter:description"/><meta alt="Banner footer" content="https://www.compararsegurodeviagem.com.br/images/banner_5.jpg" name="twitter:image"/><style>.hide {
+    display: none;
+}
+//- input[type="text"] {
+//-     text-transform: lowercase;
+//- }
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1200;
+}
+.container {
+    max-width:1280px;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align:center;
+}
+.menu {
+    padding-top:10px;
+}
+.menu a{
+    margin-right:20px;
+}
+.menu a:hover {
+    text-decoration: none;
+}
+header {
+    padding: 10px 0 10px;
+    border: none;
+}
+.menuHighlight {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+a.menuHighlight2, .menuHighlight2 {
+    font-size: 1em;
+    color: #000;
+}
+nav {
+    border: none;
+    padding-top:25px;
+}
+input, select {
+    width: 100%;
+}
+#section1 {
+    //- background: rgb(47,111,120);
+    //- background: linear-gradient(180deg, rgba(47,111,120,1) 0%, rgba(14,28,39,1) 95%);
+    background-color: #23cddb;
+    padding: 80px 0 40px 0;
+}
+#section1 h1 {
+    color: #fff;
+    font-size: 30px;
+}
+#section1 h2 {
+    color: #fff;
+    font-size: 20px;
+}
+#section1 .container {
+    margin-top: -30px;
+}
+#section1 #destino,
+#section1 #pais {
+    -webkit-appearance: none; /* Remove a aparência padrão do Safari */
+    -moz-appearance: none;
+    appearance: none;
+}
+.select-wrapper,
+.select-wrapper-top40 {
+    position: relative;
+    width: 200px;
+}
+.select-wrapper::after,
+.select-wrapper-top40::after {
+    content: '▼';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #ccc;
+}
+.select-wrapper-top40::after {
+    top: 40%;
+}
+.padleft20 {
+    padding-left: 20px;
+}
+.ajusteInputSection1 {
+    position:relative;
+    top:-23px;
+    padding-left:35px;
+}
+.ajusteInputDesk {
+    margin-top: -23px;
+}
+.icon-home {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    z-index: 10000;
+    color: #808285;
+}
+.box-whatsapp {
+    margin-top:25px;
+    background-color: #6eb847;
+    padding:0 !important;
+    border-radius: 5px;
+    display:block !important;
+}
+.box-whatsapp img {
+    max-width: 60px;
+    margin: 0 0 -6px -50px !important;
+    border-right: 1px solid white;
+}
+.box-whatsapp p {
+    margin: 0px !important;
+    display: inline-block;
+    position: relative;
+    top:-20px;
+    left: 15px;
+}
+#section2 {
+    position: relative;
+    z-index: 100;
+    max-width: 100%;
+    padding: 20px 0;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#section2.lp  {
+    position: relative;
+    background-color: #042633;
+    z-index: 200;
+}
+#section2 .centered {
+    display: flex;
+    align-items: center;
+}
+.content-seguradora img {
+    width: 80%
+}
+#ParaTodos {
+    background-color: #23cddb;
+    padding: 80px 0 40px 0;
+}
+#ParaTodos .card_title {
+    color: #042633;
+    font-size: 22px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+#ParaTodos .card_escolher {
+    color: #042633;
+    padding: 0;
+    margin-top: -15px;
+    max-width: 95%;
+}
+#ParaTodos .col-md-3,
+#ParaTodos .col-sm-12 {
+    text-align: center;
+}
+#section3 {
+    background: -webkit-linear-gradient(left,#0082a6,#0575e6);
+    background: -moz-linear-gradient(left,#0082a6,#0575e6);
+    background: -o-linear-gradient(left,#0082a6,#0575e6);
+    background: linear-gradient(to right,#0082a6,#0575e6);
+    padding: 40px 0;
+}
+#section3 h1, #section3 h2 {
+    color: white;
+}
+#section3 .card {
+    padding: 15px;
+    justify-content: start;
+    min-height:250px;
+}
+#section3 .card h2 {
+    color: black;
+}
+.card h2,
+.card h3,
+.card h4 {
+    text-align: center;
+    color: black;
+}
+.card img {
+    margin: 0 auto;
+    display: block;
+}
+#section4 {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+#section4 .card {
+    min-height: 150px;
+    padding: 40px;
+    background: #0575e6;
+    background: -webkit-linear-gradient(left,#0082a6,#0575e6);
+    background: -moz-linear-gradient(left,#0082a6,#0575e6);
+    background: -o-linear-gradient(left,#0082a6,#0575e6);
+    background: linear-gradient(to right,#0082a6,#0575e6);
+    justify-content: center;
+}
+#section4 .card p,
+#section4 .card h3,
+#section4 .card h4 {
+    text-align:center;
+    color: white;
+}
+#section4 h3,
+#section4 h4 {
+    font-size: 40px;
+}
+#MelhorEmpresa {
+    padding: 40px 0;
+    background-color: #042633;
+    color: #fff;
+}
+#ComoContratar {
+    padding: 40px 0;
+    background-color: #19daf0;
+}
+#ComoContratar .passo p {
+    font-size: 1em;
+    text-align: center;
+    color: #042633;
+}
+#ComoContratar .passo p strong {
+    color: #042633;
+}
+#ComoContratar .passo .bola {
+    position: relative;
+    background-color: #042633;
+    color: #19daf0;
+    font-size: 2em;
+    line-height: 2.45em;
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+}
+#ComoContratar .linha_tracejada {
+    position: relative;
+    width: 85%;
+    left: 7%;
+    height: 3px;
+    border-style: dashed;
+    top: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    z-index: 9;
+}
+#Depoimentos {
+    padding: 40px 0;
+    background-color: #fff;
+}
+.depoimento {
+    float: left;
+    max-width: 500px;
+    margin: 30px;
+}
+.depoimento-top-estrelas {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 125px;
+    max-width: 250px;
+    background-color: #042633;
+    border-radius: 50px;
+    padding: 5px 30px 0 30px;
+    text-align: center;
+}
+.depoimento-top-estrelas img {
+    height: 50px;
+}
+.depoimento-body {
+    color: #042633;
+    text-align: center;
+    background-color: #19daf0;
+    border-radius: 30px;
+    padding: 50px 30px 30px 30px;
+}
+.depoimento-body p {
+    color: #042633;
+}
+.depoimento-pessoa {
+    display: flex;
+    justify-content: center;
+}
+.depoimento-foto img {
+    width: 60px;
+    height: 60px;
+}
+.depoimento-nome p {
+    font-size: 1.5em;
+}
+.owl-nav {
+    margin: 22px;
+}
+button.owl-next,
+button.owl-prev,
+button.custom-owl-next,
+button.custom-owl-prev {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    margin: 0 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+button.owl-next {
+    float: right;
+}
+
+#Vantagens {
+    padding: 40px 0;
+    background-color: #042633;
+}
+#Vantagens p {
+    font-size: 1.3em;
+    color: #fff;
+    text-align: center;
+}
+#Vantagens p strong {
+    color: #19daf0;
+}
+#Vantagens .icon_vantagens {
+    background-color: #19daf0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section5 {
+    padding: 40px 0;
+    border-bottom:1px solid gray;
+}
+#section5 h2 {
+    font-size: 40px;
+    margin-bottom:40px;
+}
+#section5 img {
+    max-width:96px;
+}
+#section6 {
+    padding: 40px 0;
+}
+#footer-lp {
+    padding: 40px 0;
+    background-color: #e6e6e6;
+}
+#footer-lp a {
+    color: #004a87;
+    border-bottom: 1px dashed #004a87;
+    text-decoration: none;
+}
+#footer-lp .footer-title {
+    font-size: 1.3em;
+    color: #10bccf;
+}
+#footer-lp a.footer-link-list {
+    color: #75666a;
+    border-bottom: none;
+    font-weight: normal;
+}
+#footer-lp a.footer-link-list:hover {
+    border-bottom: 1px dashed #75666a;
+}
+#footer-lp .input-inscrever {
+    border-radius: 5px;
+    width: 50%;
+}
+#footer-lp .btn-inscrever {
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 30px;
+}
+footer {
+    background-color: #08c0d3;
+    padding: 60px 0;
+    margin-top: -60px;
+}
+footer a, footer p {
+    color: white;
+}
+#award img {
+    max-width: 20px;
+    display: inline;
+    margin-bottom: -3px;
+}
+#award {
+    margin-top:20px;
+}
+#award p {
+    color: white;
+    display: inline;
+}
+#submit {
+    position: relative;
+    background-color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 90%;
+    z-index: 20;
+}
+
+.wc_whatsapp_app {
+position: fixed;
+bottom: 30px;
+z-index: 9999; /*Força o widget ficar acima de qualquer elemento*/
+display: flex;
+align-items: center;
+}
+
+.wc_whatsapp_app.left {
+left: 15px;
+}
+
+.wc_whatsapp_app.right {
+right: 15px;
+}
+
+.wc_whatsapp {
+width: 50px;
+height: 50px;
+display: block;
+border-radius: 50%;
+background: #25d366;
+box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.wc_whatsapp:hover,
+.wc_whatsapp:focus {
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.wc_whatsapp::before {
+content: "";
+display: block;
+background: url("data:image/svg+xml;charset=UTF-8,%3csvg aria-hidden='true' focusable='false' data-prefix='icon' data-icon='whatsapp' class='svg-inline' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3e%3cpath fill='%23fff' d='M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z'%3e%3c/path%3e%3c/svg%3e") top center no-repeat;
+height: 35px;
+margin-top: 6px;
+}
+
+.wc_whatsapp p {
+font-family: 'Arial', sans-serif;
+}
+
+.wc_whatsapp_secondary,
+.wc_whatsapp_primary {
+display: none;
+}
+
+.wc_whatsapp_secondary {
+max-width: 300px;
+}
+
+.wc_whatsapp_secondary p {
+margin-left: 15px;
+border: 1px solid #e2e2e2;
+padding: 5px 10px;
+border-radius: 5px;
+position: relative;
+color: #000;
+font-size: 14px;
+background: #fff;
+}
+
+.wc_whatsapp_secondary p::before {
+top: 20px;
+left: -9px;
+content: '';
+position: absolute;
+background: white;
+border-bottom: 1px solid #e2e2e2;
+border-right: 1px solid #e2e2e2;
+left: -5px;
+top: 50%;
+margin-top: -4px;
+width: 8px;
+height: 8px;
+z-index: 1;
+-ms-transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+
+.wc_whatsapp_primary {
+border-radius: 5px;
+border: 1px solid #eaeaea;
+background: #fff;
+padding: 10px;
+bottom: 70px;
+align-items: center;
+max-width: 350px;
+box-shadow: 7px 7px 15px 8px rgba(0, 0, 0, 0.17);
+position: absolute;
+width: 350px;
+}
+
+.wc_whatsapp_primary img {
+width: 50px;
+border-radius: 5px;
+margin-left: 10px;
+}
+
+.wc_whatsapp_primary p {
+margin: 20px;
+border: 1px solid #e2e2e2;
+padding: 10px;
+border-radius: 5px;
+position: relative;
+color: #000;
+font-size: 14px;
+}
+
+.wc_whatsapp_primary p::before {
+top: 20px;
+left: -9px;
+content: '';
+position: absolute;
+background: white;
+border-bottom: 1px solid #e2e2e2;
+border-right: 1px solid #e2e2e2;
+left: -5px;
+top: 50%;
+margin-top: -4px;
+width: 8px;
+height: 8px;
+z-index: 1;
+-ms-transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+
+.wc_whatsapp_primary .close {
+position: absolute;
+right: 10px;
+top: 10px;
+font-size: 14px;
+color: #000;
+opacity: .5;
+}
+
+.wc_whatsapp_primary .close:hover,
+.wc_whatsapp_primary .close:focus {
+color: #f00;
+opacity: 1;
+}
+
+#section1 .indexSearch h1 {
+    color: #000;
+    font-size: 2.4em;
+}
+#section1 .indexSearch h2 {
+    color: #000;
+    font-size: 1.4em;
+}
+#section1.lp .indexSearch h1 {
+    color: #042633;
+    font-size: 2.4em;
+    position: relative;
+    z-index: 1000;
+}
+#section1.lp .indexSearch h2 {
+    color: #042633;
+    font-size: 1.4em;
+    position: relative;
+    z-index: 1000;
+}
+
+#ImgHomeMobile {
+    background-color: #23cddb;
+    padding: 40px 0;
+}
+
+#PqEscolher {
+    background-color: #fff;
+    padding: 40px 0;
+}
+#PqEscolher .card_title {
+    position: relative;
+    text-align: center;
+    background-color: #19daf0;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin: 5px 0 0 40px;
+    max-width: 65%;
+    font-size: 22px;
+    z-index: 100;
+}
+#PqEscolher .card_escolher {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding: 40px 15px 15px 15px;
+    margin: -30px 0 40px 12%;
+    justify-content: start;
+    min-height: 180px;
+    max-width: 60%;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    z-index: 99;
+}
+
+#DescubraBeneficios {
+    background-color: #19daf0;
+    padding: 40px 0;
+}
+#DescubraBeneficios .card_title {
+    color: #042633;
+    font-size: 22px;
+}
+#DescubraBeneficios .card_escolher {
+    color: #042633;
+    padding: 0 10px;
+    min-height: 180px;
+    max-width: 90%;
+}
+#DescubraBeneficios .col-md-4,
+#DescubraBeneficios .col-sm-12 {
+    text-align: center;
+}
+
+h2.lp {
+    font-size: 38px;
+}
+h2.lp,
+h2.lp b {
+    color: #042633;
+}
+h3.lp {
+    font-size: 22px;
+}
+h3.lp,
+h3.lp b {
+    color: #042633;
+}
+
+.seloCupomDesc {
+    float: left;
+    background-color: #042633; //-#feb902;
+    padding: 4px 12px;
+    //-border-style: dashed;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.indexForm {
+    clear: both;
+    position: relative;
+    z-index: 1050;
+}
+
+.formObj {
+    border-radius: 30px;
+    padding-left: 20px;
+    //- line-height: 2.2em;
+    height: 56px;
+}
+.btnObj {
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+select.formObj {
+    height: 56px;
+}
+
+#img_desktop {
+    position: absolute;
+    right: -60px;
+    z-index: 10;
+}
+
+.btn-pesquisar {
+    background-color: #ff6100 !important; //#feb902 !important;
+    color: #000 !important;
+}
+.btn-pesquisar.lp {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 30px;
+}
+.btn-quero {
+    background-color: #feb902 !important;
+    color: #000 !important;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 60px;
+}
+.texto-rodape {
+    width: 220px;
+}
+
+@media only screen and (max-width: 780px) {
+    #ComoContratar .linha_tracejada {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 490px) {
+    .logo {
+        padding: 0;
+    }
+    .logo-center {
+        text-align: center;
+    }
+    #section1 .banner-mobile {
+        display: block;
+    }
+    #section1 h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    #section1 h2 {
+        text-align: center;
+    }
+    .formObj,
+    select.formObj {
+        font-size: 22px;
+    }
+    .btnObj {
+        font-size: 22px;
+        padding: 10px 80px;
+    }
+    .padleft20 {
+        padding-left: 0;
+    }
+    .ajusteInputSection1 {
+        position:relative;
+        top:-23px;
+        padding-left:35px;
+    }
+    .ajusteInputMobile {
+        margin-top:-23px;
+    }
+    .ajusteInputDesk {
+        margin-top: 0;
+    }
+    .img_banner {
+        width: 100%;
+        height: auto;
+        margin: -120px 0;
+    }
+    .btn-pesquisar {
+        right: 0;
+    }
+    .btn-pesquisar.lp {
+        margin-top: 30px;
+    }
+    .hideMobile {
+        display: none;
+    }
+    #section2 {
+        display: inline-table;
+        text-align: center;
+    }
+    #section2 .centered {
+        display: inline-block;
+        width: 100%;
+    }
+    #section2 .content-seguradora {
+        width: 30%;
+        float: left;
+        padding: 0 1.5%;
+        height: 80px;
+    }
+    #section3 {
+        clear: both;
+    }
+    .depoimento-top-estrelas {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 150px;
+        border-radius: 5px;
+        padding: 0 30px;
+    }
+    .depoimento-top-estrelas img {
+        height: 40px;
+    }
+    .depoimento-body {
+        padding: 40px 20px 20px 20px;
+        margin-top: -20px;
+    }
+    .depoimento-foto img {
+        width: auto;
+        max-width: 40px;
+        height: 40px;
+    }
+    .depoimento-nome p {
+        font-size: 1.2em;
+    }
+    #PqEscolher .card_title {
+        margin: auto;
+    }
+    #PqEscolher .card_escolher {
+        margin: -30px auto 40px auto;
+    }
+    #ComoContratar .passo {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #ComoContratar .passo p {
+        font-size: 1.5em;
+    }
+    .texto-rodape {
+        width: auto;
+    }
+    #footer-lp .input-inscrever,
+    #footer-lp .btn-inscrever {
+        width: 100%;
+    }
+    #footer-lp .btn-inscrever {
+        margin: 10px 4px;
+    }
+}
+
+@media only screen and (min-width: 491px) {
+    #section1 .banner-desktop {
+        display: block;
+        position: relative;
+    }
+    #section1.lp .banner-desktop {
+        display: block;
+        position: relative;
+        left: 50%;
+    }
+    .btn-pesquisar {
+        position: relative;
+        right: 9px;
+    }
+    .hideDesktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #img_desktop {
+        right: 5%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #img_desktop {
+        right: 10%;
+    }
+}</style><link href="assets/941c82d72974047d_pages-icons.css" rel="stylesheet" type="text/css"/><script async="" src="assets/a868a9b9c7a19293_app.js" type="text/javascript"></script><link href="assets/6b06f8a9b188d041_app.bundle.min.css" rel="stylesheet" type="text/css"/><script src="assets/c9847938e43158b8_app.bundle.min.js" type="text/javascript"></script><script async="" src="assets/797eaba262198774_latest.js"></script><script async="" src="assets/fcbf4a350532374d_v2.60.0.js"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/923314153/?random=1781496895040&amp;cv=11&amp;fst=1781496895040&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=459e66a1v9116794774z872160974za20kzb72160974zd72160974xec&amp;gcd=13l3l3R3l5l1&amp;dma=0&amp;tag_exp=115616986~115938466~115938469~117776794~119456239~119456247&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fwww.compararsegurodeviagem.com.br%2Fseguro-viagem-para-intercambio%2F&amp;rcb=7&amp;frm=0&amp;tiba=Comparar%20Seguro%20de%20Viagem%20-%20Interc%C3%A2mbio&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=1418983247.1781496895&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=10_15_7&amp;uaw=0&amp;data=event%3Dgtag.config&amp;gap.gtb=2&amp;ept=9&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><style data-offline="1">/* offline: ensure content is visible regardless of JS init state */
+html,body{opacity:1!important;visibility:visible!important}
+.page-loader,.site-loader,[class*='loading-screen'],[id*='loading-screen']{display:none!important}
+</style></head><body><header class="sticky"><div class="container"><div class="row"><div class="col-md-4 col-sm 8 logo-center"><a class="logo" href="/"><picture><img alt="Logo Comparar seguro" class="logo_normal" src="assets/5c71fc5d91b8b11f_logo.png" width="200"/></picture></a></div><div class="col-md-8 text-right menu hidden-sm"><script data-b24-form="click/20/02zedm" data-b24-loaded="true" data-skip-moving="true">(function(w,d,u){
+    var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+})(window,document,'https://cdn.bitrix24.com.br/b23025923/crm/form/loader_20.js');</script><a class="menuHighlight2" href="#" onclick="return false;">Central de Atendimento: <b>(31) 2010-0022</b></a></div></div></div></header><div class="row text-center preloaderSeguros" id="preloaderSeguros" style="position: absolute; margin: 0 auto; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none;z-index:10000;"><img alt="preloader" loading="lazy" src="assets/67c0e7b1558bd6ca_preloader.gif" style="width:70px;"/></div><div class="overlay hide" id="backg"></div><section class="lp" id="section1"><div class="container"><picture id="img_desktop"><img alt="Melhor seguro para intercâmbio Comparar Seguro de Viagem" src="assets/4c31e57a8f096dbc_intercambio.png"/></picture><div class="row padleft20"><div class="col-md-7 indexSearch"><h1>Seguro Viagem Adequado para <b>Intercambistas</b></h1><h2>Seguro viagem com <b>coberturas compatíveis</b> ao <b>seu perfil</b> e país do intercâmbio.</h2><p class="seloCupomDesc">Cupom de <b>20% Off para intercâmbio</b> aplicado no site.</p><div class="form indexForm"><div class="row"><div class="col-md-3 col-sm-12 select-wrapper-top40"><i class="pg-map icon-home"></i><select aria-label="Selecione o destino para o qual deseja viajar" class="formObj ajusteInputSection1" id="destino" name="destino" style="padding-left:35px;"><option hidden="hidden" value="no">Destino</option><option value="europa">Europa</option><option value="americaDoNorte">América do Norte</option><option value="americaDoSul">América do Sul</option><option value="americaCentral">América Central</option><option value="asia">Ásia</option><option value="africa">África</option><option value="oceania">Oceania</option><option value="orienteMedio">Oriente Médio</option><option value="brasil">Brasil</option><option value="brasilReceptivo">Brasil Receptivo</option><option value="multiTrip">Multi Trip</option></select></div><div class="col-md-3 col-sm-12 ajusteInputMobile"><i class="pg-calender icon-home"></i><input autocomplete="off" class="form-control dp SelectData formObj ajusteInputSection1" id="filtrodataIda" placeholder="Data de Partida" style="background-color:white;padding-left:35px;" type="text"/></div><div class="col-md-3 col-sm-12 ajusteInputMobile"><i class="pg-calender icon-home"></i><input autocomplete="off" class="form-control dp SelectData formObj ajusteInputSection1" id="filtrodataVolta" placeholder="Data de Volta" style="background-color:white;padding-left:35px;" type="text"/></div><div class="col-md-3 col-sm-12 ajusteInputMobile"><input autocomplete="off" class="formObj" id="nome" name="nome" placeholder="Nome" type="text"/></div></div><div class="row ajusteInputDesk"><div class="col-md-6 col-sm-12"><input autocomplete="off" class="formObj" id="email" name="email" placeholder="E-mail" type="text"/></div><div class="col-md-3 col-sm-12 select-wrapper"><select aria-label="Selecione o DDD do seu número de telefone pelo país de origem" class="formObj" id="pais" name="pais"><option data-countrycode="BR" value="55">Brazil (+55)</option><option data-countrycode="DZ" value="213">Algeria (+213)</option><option data-countrycode="AD" value="376">Andorra (+376)</option><option data-countrycode="AO" value="244">Angola (+244)</option><option data-countrycode="AI" value="1264">Anguilla (+1264)</option><option data-countrycode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option><option data-countrycode="AR" value="54">Argentina (+54)</option><option data-countrycode="AM" value="374">Armenia (+374)</option><option data-countrycode="AW" value="297">Aruba (+297)</option><option data-countrycode="AU" value="61">Australia (+61)</option><option data-countrycode="AT" value="43">Austria (+43)</option><option data-countrycode="AZ" value="994">Azerbaijan (+994)</option><option data-countrycode="BS" value="1242">Bahamas (+1242)</option><option data-countrycode="BH" value="973">Bahrain (+973)</option><option data-countrycode="BD" value="880">Bangladesh (+880)</option><option data-countrycode="BB" value="1246">Barbados (+1246)</option><option data-countrycode="BY" value="375">Belarus (+375)</option><option data-countrycode="BE" value="32">Belgium (+32)</option><option data-countrycode="BZ" value="501">Belize (+501)</option><option data-countrycode="BJ" value="229">Benin (+229)</option><option data-countrycode="BM" value="1441">Bermuda (+1441)</option><option data-countrycode="BT" value="975">Bhutan (+975)</option><option data-countrycode="BO" value="591">Bolivia (+591)</option><option data-countrycode="BA" value="387">Bosnia Herzegovina (+387)</option><option data-countrycode="BW" value="267">Botswana (+267)</option><option data-countrycode="BN" value="673">Brunei (+673)</option><option data-countrycode="BG" value="359">Bulgaria (+359)</option><option data-countrycode="BF" value="226">Burkina Faso (+226)</option><option data-countrycode="BI" value="257">Burundi (+257)</option><option data-countrycode="KH" value="855">Cambodia (+855)</option><option data-countrycode="CM" value="237">Cameroon (+237)</option><option data-countrycode="CA" value="1">Canada (+1)</option><option data-countrycode="CV" value="238">Cape Verde Islands (+238)</option><option data-countrycode="KY" value="1345">Cayman Islands (+1345)</option><option data-countrycode="CF" value="236">Central African Republic (+236)</option><option data-countrycode="CL" value="56">Chile (+56)</option><option data-countrycode="CN" value="86">China (+86)</option><option data-countrycode="CO" value="57">Colombia (+57)</option><option data-countrycode="KM" value="269">Comoros (+269)</option><option data-countrycode="CG" value="242">Congo (+242)</option><option data-countrycode="CK" value="682">Cook Islands (+682)</option><option data-countrycode="CR" value="506">Costa Rica (+506)</option><option data-countrycode="HR" value="385">Croatia (+385)</option><option data-countrycode="CU" value="53">Cuba (+53)</option><option data-countrycode="CY" value="90392">Cyprus North (+90392)</option><option data-countrycode="CY" value="357">Cyprus South (+357)</option><option data-countrycode="CZ" value="42">Czech Republic (+42)</option><option data-countrycode="DK" value="45">Denmark (+45)</option><option data-countrycode="DJ" value="253">Djibouti (+253)</option><option data-countrycode="DM" value="1809">Dominica (+1809)</option><option data-countrycode="DO" value="1809">Dominican Republic (+1809)</option><option data-countrycode="EC" value="593">Ecuador (+593)</option><option data-countrycode="EG" value="20">Egypt (+20)</option><option data-countrycode="SV" value="503">El Salvador (+503)</option><option data-countrycode="GQ" value="240">Equatorial Guinea (+240)</option><option data-countrycode="ER" value="291">Eritrea (+291)</option><option data-countrycode="EE" value="372">Estonia (+372)</option><option data-countrycode="ET" value="251">Ethiopia (+251)</option><option data-countrycode="FK" value="500">Falkland Islands (+500)</option><option data-countrycode="FO" value="298">Faroe Islands (+298)</option><option data-countrycode="FJ" value="679">Fiji (+679)</option><option data-countrycode="FI" value="358">Finland (+358)</option><option data-countrycode="FR" value="33">France (+33)</option><option data-countrycode="GF" value="594">French Guiana (+594)</option><option data-countrycode="PF" value="689">French Polynesia (+689)</option><option data-countrycode="GA" value="241">Gabon (+241)</option><option data-countrycode="GM" value="220">Gambia (+220)</option><option data-countrycode="GE" value="7880">Georgia (+7880)</option><option data-countrycode="DE" value="49">Germany (+49)</option><option data-countrycode="GH" value="233">Ghana (+233)</option><option data-countrycode="GI" value="350">Gibraltar (+350)</option><option data-countrycode="GR" value="30">Greece (+30)</option><option data-countrycode="GL" value="299">Greenland (+299)</option><option data-countrycode="GD" value="1473">Grenada (+1473)</option><option data-countrycode="GP" value="590">Guadeloupe (+590)</option><option data-countrycode="GU" value="671">Guam (+671)</option><option data-countrycode="GT" value="502">Guatemala (+502)</option><option data-countrycode="GN" value="224">Guinea (+224)</option><option data-countrycode="GW" value="245">Guinea - Bissau (+245)</option><option data-countrycode="GY" value="592">Guyana (+592)</option><option data-countrycode="HT" value="509">Haiti (+509)</option><option data-countrycode="HN" value="504">Honduras (+504)</option><option data-countrycode="HK" value="852">Hong Kong (+852)</option><option data-countrycode="HU" value="36">Hungary (+36)</option><option data-countrycode="IS" value="354">Iceland (+354)</option><option data-countrycode="IN" value="91">India (+91)</option><option data-countrycode="ID" value="62">Indonesia (+62)</option><option data-countrycode="IR" value="98">Iran (+98)</option><option data-countrycode="IQ" value="964">Iraq (+964)</option><option data-countrycode="IE" value="353">Ireland (+353)</option><option data-countrycode="IL" value="972">Israel (+972)</option><option data-countrycode="IT" value="39">Italy (+39)</option><option data-countrycode="JM" value="1876">Jamaica (+1876)</option><option data-countrycode="JP" value="81">Japan (+81)</option><option data-countrycode="JO" value="962">Jordan (+962)</option><option data-countrycode="KZ" value="7">Kazakhstan (+7)</option><option data-countrycode="KE" value="254">Kenya (+254)</option><option data-countrycode="KI" value="686">Kiribati (+686)</option><option data-countrycode="KP" value="850">Korea North (+850)</option><option data-countrycode="KR" value="82">Korea South (+82)</option><option data-countrycode="KW" value="965">Kuwait (+965)</option><option data-countrycode="KG" value="996">Kyrgyzstan (+996)</option><option data-countrycode="LA" value="856">Laos (+856)</option><option data-countrycode="LV" value="371">Latvia (+371)</option><option data-countrycode="LB" value="961">Lebanon (+961)</option><option data-countrycode="LS" value="266">Lesotho (+266)</option><option data-countrycode="LR" value="231">Liberia (+231)</option><option data-countrycode="LY" value="218">Libya (+218)</option><option data-countrycode="LI" value="417">Liechtenstein (+417)</option><option data-countrycode="LT" value="370">Lithuania (+370)</option><option data-countrycode="LU" value="352">Luxembourg (+352)</option><option data-countrycode="MO" value="853">Macao (+853)</option><option data-countrycode="MK" value="389">Macedonia (+389)</option><option data-countrycode="MG" value="261">Madagascar (+261)</option><option data-countrycode="MW" value="265">Malawi (+265)</option><option data-countrycode="MY" value="60">Malaysia (+60)</option><option data-countrycode="MV" value="960">Maldives (+960)</option><option data-countrycode="ML" value="223">Mali (+223)</option><option data-countrycode="MT" value="356">Malta (+356)</option><option data-countrycode="MH" value="692">Marshall Islands (+692)</option><option data-countrycode="MQ" value="596">Martinique (+596)</option><option data-countrycode="MR" value="222">Mauritania (+222)</option><option data-countrycode="YT" value="269">Mayotte (+269)</option><option data-countrycode="MX" value="52">Mexico (+52)</option><option data-countrycode="FM" value="691">Micronesia (+691)</option><option data-countrycode="MD" value="373">Moldova (+373)</option><option data-countrycode="MC" value="377">Monaco (+377)</option><option data-countrycode="MN" value="976">Mongolia (+976)</option><option data-countrycode="MS" value="1664">Montserrat (+1664)</option><option data-countrycode="MA" value="212">Morocco (+212)</option><option data-countrycode="MZ" value="258">Mozambique (+258)</option><option data-countrycode="MN" value="95">Myanmar (+95)</option><option data-countrycode="NA" value="264">Namibia (+264)</option><option data-countrycode="NR" value="674">Nauru (+674)</option><option data-countrycode="NP" value="977">Nepal (+977)</option><option data-countrycode="NL" value="31">Netherlands (+31)</option><option data-countrycode="NC" value="687">New Caledonia (+687)</option><option data-countrycode="NZ" value="64">New Zealand (+64)</option><option data-countrycode="NI" value="505">Nicaragua (+505)</option><option data-countrycode="NE" value="227">Niger (+227)</option><option data-countrycode="NG" value="234">Nigeria (+234)</option><option data-countrycode="NU" value="683">Niue (+683)</option><option data-countrycode="NF" value="672">Norfolk Islands (+672)</option><option data-countrycode="NP" value="670">Northern Marianas (+670)</option><option data-countrycode="NO" value="47">Norway (+47)</option><option data-countrycode="OM" value="968">Oman (+968)</option><option data-countrycode="PW" value="680">Palau (+680)</option><option data-countrycode="PA" value="507">Panama (+507)</option><option data-countrycode="PG" value="675">Papua New Guinea (+675)</option><option data-countrycode="PY" value="595">Paraguay (+595)</option><option data-countrycode="PE" value="51">Peru (+51)</option><option data-countrycode="PH" value="63">Philippines (+63)</option><option data-countrycode="PL" value="48">Poland (+48)</option><option data-countrycode="PT" value="351">Portugal (+351)</option><option data-countrycode="PR" value="1787">Puerto Rico (+1787)</option><option data-countrycode="QA" value="974">Qatar (+974)</option><option data-countrycode="RE" value="262">Reunion (+262)</option><option data-countrycode="RO" value="40">Romania (+40)</option><option data-countrycode="RU" value="7">Russia (+7)</option><option data-countrycode="RW" value="250">Rwanda (+250)</option><option data-countrycode="SM" value="378">San Marino (+378)</option><option data-countrycode="ST" value="239">Sao Tome &amp; Principe (+239)</option><option data-countrycode="SA" value="966">Saudi Arabia (+966)</option><option data-countrycode="SN" value="221">Senegal (+221)</option><option data-countrycode="CS" value="381">Serbia (+381)</option><option data-countrycode="SC" value="248">Seychelles (+248)</option><option data-countrycode="SL" value="232">Sierra Leone (+232)</option><option data-countrycode="SG" value="65">Singapore (+65)</option><option data-countrycode="SK" value="421">Slovak Republic (+421)</option><option data-countrycode="SI" value="386">Slovenia (+386)</option><option data-countrycode="SB" value="677">Solomon Islands (+677)</option><option data-countrycode="SO" value="252">Somalia (+252)</option><option data-countrycode="ZA" value="27">South Africa (+27)</option><option data-countrycode="ES" value="34">Spain (+34)</option><option data-countrycode="LK" value="94">Sri Lanka (+94)</option><option data-countrycode="SH" value="290">St. Helena (+290)</option><option data-countrycode="KN" value="1869">St. Kitts (+1869)</option><option data-countrycode="SC" value="1758">St. Lucia (+1758)</option><option data-countrycode="SD" value="249">Sudan (+249)</option><option data-countrycode="SR" value="597">Suriname (+597)</option><option data-countrycode="SZ" value="268">Swaziland (+268)</option><option data-countrycode="SE" value="46">Sweden (+46)</option><option data-countrycode="CH" value="41">Switzerland (+41)</option><option data-countrycode="SI" value="963">Syria (+963)</option><option data-countrycode="TW" value="886">Taiwan (+886)</option><option data-countrycode="TJ" value="7">Tajikstan (+7)</option><option data-countrycode="TH" value="66">Thailand (+66)</option><option data-countrycode="TG" value="228">Togo (+228)</option><option data-countrycode="TO" value="676">Tonga (+676)</option><option data-countrycode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option><option data-countrycode="TN" value="216">Tunisia (+216)</option><option data-countrycode="TR" value="90">Turkey (+90)</option><option data-countrycode="TM" value="7">Turkmenistan (+7)</option><option data-countrycode="TM" value="993">Turkmenistan (+993)</option><option data-countrycode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option><option data-countrycode="TV" value="688">Tuvalu (+688)</option><option data-countrycode="UG" value="256">Uganda (+256)</option><option data-countrycode="GB" value="44">UK (+44)</option><!-- <option data-countryCode="GB" value="44">UK (+44)</option>--><option data-countrycode="UA" value="380">Ukraine (+380)</option><option data-countrycode="AE" value="971">United Arab Emirates (+971)</option><option data-countrycode="UY" value="598">Uruguay (+598)</option><option data-countrycode="US" value="1">USA (+1)</option><!-- <option data-countryCode="US" value="1">USA (+1)</option>--><option data-countrycode="UZ" value="7">Uzbekistan (+7)</option><option data-countrycode="VU" value="678">Vanuatu (+678)</option><option data-countrycode="VA" value="379">Vatican City (+379)</option><option data-countrycode="VE" value="58">Venezuela (+58)</option><option data-countrycode="VN" value="84">Vietnam (+84)</option><option data-countrycode="VG" value="84">Virgin Islands - British (+1284)</option><option data-countrycode="VI" value="84">Virgin Islands - US (+1340)</option><option data-countrycode="WF" value="681">Wallis &amp; Futuna (+681)</option><option data-countrycode="YE" value="969">Yemen (North)(+969)</option><option data-countrycode="YE" value="967">Yemen (South)(+967)</option><option data-countrycode="ZM" value="260">Zambia (+260)</option><option data-countrycode="ZW" value="263">Zimbabwe (+263)</option></select></div><div class="col-md-3 col-sm-12"><input aria-label="Digite o seu número de telefone" class="formObj" id="phone" maxlength="15" name="phone" placeholder="Seu Telefone" type="text"/><input class="formObj" id="phone2" maxlength="15" name="phone2" placeholder="Phone" style="display:none;" type="text"/></div></div><div class="row"><div class="col-md-8 col-sm-12 hideMobile" id="award" style="padding-left: 20px;"><picture><img alt="avaliações 5 estrelas para Comparar Seguros de Viagem" class="logo_normal" src="assets/1cc1e75de9db4321_award-solid-black.png"/></picture><p style="color:#000">Empresa mais bem avaliada do segmento com + <b>21 Mil avaliações</b> 5 estrelas.</p></div><div class="col-md-4 col-sm-12"> <btn class="button btn-pesquisar lp" id="submit">Fazer Cotação</btn></div></div><div class="row"><h4 id="erroComparar" style="display:none;">Infelizmente não é possível emitir seguros para mais de 365 dias</h4><h4 id="erroComparar2" style="display:none;">Por favor preencha todos os campos</h4></div></div></div></div></div></section><section class="lp" id="section2"><div class="container"><div class="row"><div class="centered col-sm-12"><div class="content-seguradora"><picture><img alt="Logo da seguradora Affinity" loading="lazy" src="assets/d500c5e4e8f3d2b2_affinity-seguro-viagem.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora Assist Card" loading="lazy" src="assets/7a23ca0515f394ca_assist-card.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora Ciclic" loading="lazy" src="assets/79237034bdce7941_ciclic-seguro-viagem.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora Coris" loading="lazy" src="assets/b18e0fd33d0d31ff_coris-seguro-viagem.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora GTA" loading="lazy" src="assets/a6ab452680e73118_gta.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora Hero Seguros" loading="lazy" src="assets/c1f84679a3019359_Hero-seguros.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora Intermac" loading="lazy" src="assets/78728dedf7f291f2_intermac-seguro-viagem.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora ita" loading="lazy" src="assets/6ecdcab0f1c8018b_ita.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora My Travel Assist" loading="lazy" src="assets/8bf8a38415c51bd0_my-travel-assist.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora Nest Seguro de Viagem" loading="lazy" src="assets/3a0385cb7d57e49f_nest-seguro-viagem-logo.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora Vetra Seguros de Viagem" loading="lazy" src="assets/f62cd115947e99c6_vetra-seguros.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora Welcome Assist" loading="lazy" src="assets/ddc1499d95ad2c79_welcome-assist.png"/></picture></div><div class="content-seguradora"><picture><img alt="Logo da seguradora Universal Assistance" loading="lazy" src="assets/ff0aa3dca7548f74_universal-assistance.png"/></picture></div></div></div></div></section><section class="hideDesktop" id="ImgHomeMobile"><div class="container"><div class="row"><div class="col-md-12"><h2 class="text-center"><i>Viaje seguro com <b>cobertura completa, atendimento personalizado</b> e o <b>melhores preços</b></i>.</h2><picture id="img_mobile"></picture></div><div class="col-sm-12 text-center" style="margin-top: -70px;"><btn class="button btn-quero btnObj" id="btnToTop1">Fazer Cotação</btn></div></div></div></section><section class="hide" id="ParaTodos"><div class="container"><div class="row hideMobile"><div class="col-md-12 text-center"><h2 class="lp"><strong>Seguro de Viagem</strong> para todos os viajantes</h2><h3 class="lp"><i>Na<strong> Comparar Seguro de Viagem </strong> você encontra as <strong>melhores coberturas</strong> para todos os <strong>tipos de viagem!</strong></i></h3></div></div><div class="row" style="margin-top:25px;"><div class="col-md-3 col-sm-12"><picture><img alt="ícone seguro viagem intercâmbio" loading="lazy" src="assets/8caf11a4dc01ba67_icon-intercambio.png"/></picture><div class="card_escolher fluid"><p class="text-section">Seguro Viagem para</p></div><h4 class="card_title"><strong>Intercâmbio</strong></h4></div><div class="col-md-3 col-sm-12"><picture><img alt="ícone seguro viagem américa do norte" loading="lazy" src="assets/09ea30632ced62bc_icon-america-do-norte.png"/></picture><div class="card_escolher fluid"><p class="text-section">Seguro Viagem para</p></div><h4 class="card_title"><strong>América do Norte</strong></h4></div><div class="col-md-3 col-sm-12"><picture><img alt="ícone seguro viagem esporte" loading="lazy" src="assets/8f2ba4df7f09bf0a_icon-esporte.png"/></picture><div class="card_escolher fluid"><p class="text-section">Seguro Viagem para</p></div><h4 class="card_title"><strong>Esporte</strong></h4></div><div class="col-md-3 col-sm-12"><picture><img alt="ícone seguro viagem europa" loading="lazy" src="assets/d02872e1ea1a8e20_icon-europa.png"/></picture><div class="card_escolher fluid"><p class="text-section">Seguro Viagem para</p></div><h4 class="card_title"><strong>Europa</strong></h4></div><div class="col-md-3 col-sm-12"><picture><img alt="ícone seguro viagem idoso" loading="lazy" src="assets/da239e70a2ba8fd1_icon-idoso.png"/></picture><div class="card_escolher fluid"><p class="text-section">Seguro Viagem para</p></div><h4 class="card_title"><strong>Idoso</strong></h4></div><div class="col-md-3 col-sm-12"><picture><img alt="ícone seguro viagem estados unidos" loading="lazy" src="assets/a8b8ba55e37aabe5_icon-estados-unidos.png"/></picture><div class="card_escolher fluid"><p class="text-section">Seguro Viagem para</p></div><h4 class="card_title"><strong>Estados Unidos</strong></h4></div><div class="col-md-3 col-sm-12"><picture><img alt="ícone seguro viagem américa latina" loading="lazy" src="assets/87bc6bafe9a64b14_icon-america-latina.png"/></picture><div class="card_escolher fluid"><p class="text-section">Seguro Viagem para</p></div><h4 class="card_title"><strong>América Latina</strong></h4></div><div class="col-md-3 col-sm-12"><picture><img alt="ícone seguro viagem esqui" loading="lazy" src="assets/f900fc892794c66b_icon-esqui.png"/></picture><div class="card_escolher fluid"><p class="text-section">Seguro Viagem para</p></div><h4 class="card_title"><strong>Esqui</strong></h4></div></div></div></section><section id="PqEscolher"><div class="container"><div class="row"><div class="col-md-12 text-center"><h2 class="lp">Por que Escolher a <strong>Comparar Seguro de Viagem</strong>?</h2><h3 class="lp"><i><strong>3 fortes motivos</strong> para você <strong>cotar, comparar</strong> e <strong>contratar</strong> o seu <strong>Seguro Viagem</strong> para <strong>intercâmbio</strong> com a gente!</i></h3></div></div><div class="row" style="margin-top:25px;"><div class="col-md-4 col-sm-12"><h4 class="card_title">Melhores <strong>Seguradoras</strong></h4><div class="card_escolher fluid"><p class="text-section">Selecionamos rigorosamente as <strong>melhores seguradoras do mercado</strong>, organizando todas as informações para que <strong>você encontre o seguro viagem perfeito</strong> para sua jornada.</p></div></div><div class="col-md-4 col-sm-12"><h4 class="card_title">Preço <strong>Imbatível</strong></h4><div class="card_escolher fluid"><p class="text-section">Nosso compromisso é garantir sempre o <strong>melhor seguro viagem pelo menor preço</strong>. Encontrou uma oferta melhor? Nós cobrimos! Condição sujeita a análise.</p></div></div><div class="col-md-4 col-sm-12"><h4 class="card_title">Assistência <strong>Completa</strong></h4><div class="card_escolher fluid"><p class="text-section">Além da assistência oferecida pela seguradora escolhida, <strong>a equipe da Comparar está sempre pronta para ajudar</strong>, proporcionando suporte quando você mais precisa.</p></div></div></div></div></section><section id="DescubraBeneficios"> <div class="container"><div class="row hideMobile"><div class="col-md-12 text-center"><h2 class="lp">Descubra os Benefícios do <strong>Seguro Viagem!</strong></h2><h3 class="lp"><i><strong>Aproveite suas viagens ao máximo </strong> e explore o mundo com a certeza de que <strong>está protegido contra imprevistos.</strong></i></h3></div></div><div class="row" style="margin-top:25px;"><div class="col-md-4 col-sm-12"><picture><img alt="ícone avião airplain" loading="lazy" src="assets/b569eb5239b05a42_icon-plain.png"/></picture><h4 class="card_title"><strong>Reembolso Aéreo</strong></h4><div class="card_escolher fluid"><p class="text-section">Garante o <strong>reembolso de despesas com passagens aéreas</strong> em caso de cancelamentos ou mudanças de itinerário, minimizando perdas financeiras.</p></div></div><div class="col-md-4 col-sm-12"><picture><img alt="ícone avião airplain" loading="lazy" src="assets/2d5d406281318a1e_icon-odonto.png"/></picture><h4 class="card_title"><strong>Assistência Odontológica</strong></h4><div class="card_escolher fluid"><p class="text-section">Cobre <strong>consultas e tratamentos dentários inesperados</strong> durante a viagem, proporcionando atendimento sem preocupações.</p></div></div><div class="col-md-4 col-sm-12"><picture><img alt="ícone atendimento 24h" loading="lazy" src="assets/6566a5fe2cb6d467_icon-24h.png"/></picture><h4 class="card_title"><strong>Atendimento 24h</strong></h4><div class="card_escolher fluid"><p class="text-section">Disponibiliza <strong>suporte contínuo para resolver problemas a qualquer hora</strong>, garantindo que imprevistos sejam tratados rapidamente.</p></div></div><div class="col-md-4 col-sm-12"><picture><img alt="ícone bagagem" loading="lazy" src="assets/60332dcea0e25738_icon-bagagem.png"/></picture><h4 class="card_title"><strong>Extravio de Bagagem</strong></h4><div class="card_escolher fluid"><p class="text-section">Oferece <strong>indenização em caso de perda, roubo ou dano à bagagem</strong>, permitindo que o viajante continue sua viagem com menos estresse.</p></div></div><div class="col-md-4 col-sm-12"><picture><img alt="ícone farmácia" loading="lazy" src="assets/51a09172cf1b282f_icon-farmacia.png"/></picture><h4 class="card_title"><strong>Assistência Farmacêutica</strong></h4><div class="card_escolher fluid"><p class="text-section">Garante acesso a medicamentos necessários, <strong>incluindo a cobertura para a compra de remédios</strong> prescritos durante a viagem.</p></div></div><div class="col-md-4 col-sm-12"><picture><img alt="ícone médico" loading="lazy" src="assets/a99cadadd9aa4ad1_icon-medico.png"/></picture><h4 class="card_title"><strong>Assistência Médica</strong></h4><div class="card_escolher fluid"><p class="text-section">Cobre <strong>emergências médicas, como doenças e acidentes</strong>, assegurando que o viajante receba atendimento sem se preocupar com altos gastos.</p></div></div></div></div></section><section id="MelhorEmpresa"><div class="container"><div class="row"><div class="col-sm-12 text-center"><picture><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></picture><h2 style="letter-spacing:-1px;">A Melhor <strong>Empresa de Seguro Viagem</strong> do Brasil.</h2><h2 style="letter-spacing:-1px;">Mais de <strong style="color:#19daf0;">1 Milhão de Apólices</strong> Emitidas.</h2><picture><img alt="Reclame aqui - Seguro Viagem" loading="lazy" src="assets/f25673ad6c5baaa9_reclameaqui.png"/></picture></div></div></div></section><section id="ComoContratar"><div class="container"><div class="row"><div class="col-sm-12 text-center"><h2 class="lp">Como <strong>Cotar, Comparar</strong> e <strong>Contratar Seguro Viagem</strong>?</h2><h3 class="lp"><strong>6</strong> passos <strong>simples, rápido</strong> e com <strong>atendimento personalizado</strong>!</h3></div><div class="col-sm-12"><div class="row" style="padding-top:40px;"><div class="linha_tracejada hideMobile"></div><div class="passo fluid col-md-2"><p class="bola">1</p><p>Preencher o <strong>formulário</strong> de <strong>cotação</strong></p></div><div class="passo fluid col-md-2"><p class="bola">2</p><p>Comparar as <strong>coberturas</strong> e <strong>seguradoras</strong></p></div><div class="passo fluid col-md-2"><p class="bola">3</p><p>A especialista de ajuda <strong>escolher</strong> o <strong>plano ideal</strong></p></div><div class="passo fluid col-md-2"><p class="bola">4</p><p>Escolher a <strong>forma</strong> de <strong>pagamento</strong></p></div><div class="passo fluid col-md-2"><p class="bola">5</p><p>Finalizar o <strong>pagamento</strong> da <strong>cobertura</strong></p></div><div class="passo fluid col-md-2"><p class="bola">6</p><p>Apólice será <strong>enviada</strong> no <strong>e-mail</strong> ou <strong>Whatsapp</strong></p></div></div></div></div><div class="row" style="padding-top:40px;"><div class="col-sm-12 text-center"><btn class="button btn-quero btnObj" id="btnToTop2">Fazer Cotação</btn></div></div></div></section><section id="Depoimentos"><div class="container"><div class="row" style="margin-bottom:40px;"><div class="col-sm-12 text-center"><h2>O Que Falam da <strong>Comparar Seguro de Viagem</strong>?</h2><h3><i>Mais de <strong>21 Mil Avaliações 5 Estrelas</strong> e Mais de <strong>1 Milhão de Apólices Emitidas</strong></i>.</h3></div></div><div class="row"><div class="owl-carousel"><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>Fui atendido pela Larissa. Respondeu meus questionamentos rapidamente. Tirou minhas dúvidas e conduziu a negociação de maneira muito profissional. Recebi as apólices logo após o pagamento. Foi uma excelente experiência.</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Washington Gallo para comparar seguro de viagem" loading="lazy" src="assets/f729d98c094b2288_edcef00607f2521b407e8d4ab4c011.png"/></div><div class="depoimento-nome"> <p>Washington Gallo</p></div></div></div></div><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>A Isabel Rodrigues me atendeu muito bem! Estava disponível em horários que eu nem esperava e forneceu todo o apoio necessário pra fechar o meu seguro. Fiquei muito satisfeito :)</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Thomaz Vieira para comparar seguro de viagem" loading="lazy" src="assets/c76a1c6c0757bc40_4106accbc7b7c9c73ac55b300bd328.png"/></div><div class="depoimento-nome"> <p>Thomaz Vieira</p></div></div></div></div><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>Fui super bem atendido pela profissional Gilzete da Comparar Seguros de Viagem. Se colocou em todo o processo de cotação, até o fechamento do contrato muito educada, interessada em buscar a melhor oferta para o cliente. Com certeza a indicarei para outros amigos. Sorte dessa empresa ter uma profissional desse gabarito. Parabéns Gilzete e obrigado por me aturar nas discussões de valores e pela paciência em ouvir as minhas propostas.</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Sidney Zabeu para comparar seguro de viagem" loading="lazy" src="assets/b99ae3a5c6a4884f_cd618e4fbf60e097cea1cc9f4d92f6.png"/></div><div class="depoimento-nome"> <p>Sidney Zabeu</p></div></div></div></div><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>Fui recebido pela TAMARA BASTOS. Atendimento impecável que me fez decidir pelo fechamento do seguro viagem. Me explicou com detalhes o funcionamento e me deixou tranquilo com relação ao serviço. Extremamente competente e elevou a credibilidade da empresa. Parabéns! Certamente na minha próxima viagem estarei novamente por aqui.</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Marcos Bastos para comparar seguro de viagem" loading="lazy" src="assets/410511e5928911b6_90b40d7e70e58384ede0c394961967.png"/></div><div class="depoimento-nome"> <p>Marcos Bastos</p></div></div></div></div><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>Fui atendido pela Alexsandra Maciel e foi tudo excelente, desde o primeiro contato até o encaminhamento das apólices. Muito educada e prestativa. Recomendo a todos. 👏🏽👏🏽👏🏽👏🏽</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Jance Terra para comparar seguro de viagem" loading="lazy" src="assets/8845d4cef4585724_6cf96adcb43802cdd7c378f60ebc4e.png"/></div><div class="depoimento-nome"> <p>Jance Terra</p></div></div></div></div><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>Quero agradecer imensamente à Comparar Seguro Viagem, em especial à Kamila Castro. Procurei por um seguro viagem com cobertura completa e encontrei tudo isso aqui. A Kamila foi muito paciente em tirar todas as minhas dúvidas e me ajudou a escolher a melhor opção para a minha viagem. A rapidez na emissão do seguro e o custo-benefício foram surpreendentes. A Comparar Seguro Viagem igualou o valor de um concorrente, o que me deixou ainda mais satisfeita. Com certeza voltarei a contratar os serviços deles!</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Isabela Flauzino para comparar seguro de viagem" loading="lazy" src="assets/a7bcc5991bba9321_a2f11b77d28d95ddb39f9535ae0852.png"/></div><div class="depoimento-nome"> <p>Isabela Flauzino</p></div></div></div></div><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>Realmente me surpreendi com o atendimento da Gisele Silva! Falei com outras empresas e a maioria do atendimento era automático, já a Gisele me mandou vários áudios explicando tudo e sanou todas as minhas dúvidas, sempre que eu enviei mensagem as respostas foram rápidas. Super recomendo, o atendimento foi decisivo na minha compra 😍</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Eliana Bandeira para comparar seguro de viagem" loading="lazy" src="assets/b96113046dbfc2d1_c5bf9f09a81535f400db072870f360.png"/></div><div class="depoimento-nome"> <p>Eliana Bandeira</p></div></div></div></div><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>Alexandra Maciel simplesmente perfeita! Explica tudo certinho, responde rápido e manda áudios tom facilitando muuuito o atendimento. Tbm ajuda na escolhe do melhor seguro pra sua situação. Agora só contrato seguros com ela hehe</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Ju Faria o que? para comparar seguro de viagem" loading="lazy" src="assets/0a6b7017be5a4fe5_8bfcc796478f9895b84c65949a34fd.png"/></div><div class="depoimento-nome"> <p>Ju Faria o que?</p></div></div></div></div><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>Sempre muito bem atendido, a profissional Núbia Tolentino  excelente, além de trazer as melhores ofertas, me ajuda em tomar a melhor decisão, e o pós-venda também é excepcional, aquele medo de viajar para fora do país e ficar desprotegido, isso não acontece, isso deixa muito tranquilo para quem precisa viajar com a família.</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Bruno Teles dos Santos para comparar seguro de viagem" loading="lazy" src="assets/799664555009c8ec_a6a2e3c37af71a6abaa41127d1b287.png"/></div><div class="depoimento-nome"> <p>Bruno Teles dos Santos</p></div></div></div></div><div class="depoimento"><div class="depoimento-top-estrelas"><img alt="5 estrelas seguro viagem" loading="lazy" src="assets/4e2311eb83e2d871_5estrelas.png"/></div><div class="depoimento-body"><p>Só posso qualificar a experiência de contratação do serviço pois ainda não viajei/utilizei. Mas até aqui foi tudo ótimo. A agente Isabel foi muito atenciosa, gentil, me ofereceu várias opções de seguros! Gostei muito!</p><div class="depoimento-pessoa"><div class="depoimento-foto"> <img alt="depoimento de Aída Annecchini para comparar seguro de viagem" loading="lazy" src="assets/5a6d97ce2de974e9_5c7f2f398382913dee5d56f2fcf6d8.png"/></div><div class="depoimento-nome"> <p>Aída Annecchini</p></div></div></div></div></div></div><div class="row"><div class="col-sm-12 text-center"><btn class="button btn-quero btnObj" id="btnToTop3">Fazer Cotação</btn></div></div></div></section><section id="footer-lp"> <div class="container"> <div class="row"> <div class="col-md-3 col-sm-12"><picture><img alt="Logo Comparar seguro" class="logo_normal" src="assets/5c71fc5d91b8b11f_logo.png" width="200"/></picture><p class="texto-rodape">A Comparar Seguro de Viagem foi criada para tornar simples, rápida, segura e econômica a escolha do melhor seguro viagem para brasileiros que viajam pelo Brasil e pelo mundo.</p></div><div class="col-md-5 col-sm-12"><p style="font-size:1.3em;"><strong>Forma de Pagamentos</strong></p><p><strong>Cartão de crédito em 12x Sem Juros</strong></p><picture><img alt="Comparar seguro de viagem - cartão visa" class="logo_normal" src="assets/fad3ec24bd851081_card-visa.png" width="66"/></picture><picture><img alt="Comparar seguro de viagem - cartão master" class="logo_normal" src="assets/afbac687706f67bc_card-master.png" width="66"/></picture><picture><img alt="Comparar seguro de viagem - cartão amex" class="logo_normal" src="assets/34d2e8f02b64c94c_card-amex.png" width="66"/></picture><picture><img alt="Comparar seguro de viagem - cartão diners" class="logo_normal" src="assets/c1753f5fca2f1a89_card-diners.png" width="66"/></picture><picture><img alt="Comparar seguro de viagem - cartão elo" class="logo_normal" src="assets/7c3f45a1f942d0f7_card-elo.png" width="66"/></picture><picture><img alt="Comparar seguro de viagem - cartão hipercard" class="logo_normal" src="assets/972ad8eb2251a01e_card-hipercard.png" width="66"/></picture></div><div class="col-md-2 col-sm-12"><p><strong>Boleto Bancário e PIX</strong></p><picture><img alt="Comparar seguro de viagem - boleto e pix" class="logo_normal" src="assets/cc9b804007065854_boleto.png" width="66"/></picture><picture><img alt="Comparar seguro de viagem - boleto e pix" class="logo_normal" src="assets/9c8fa80a6c993ba1_pix.png" width="90"/></picture><p><strong>Desconto Extra</strong></p></div><div class="col-md-2 col-sm-12 text-center"><p>Central de Atendimento </p><p><strong>(31) 2010-0022</strong></p></div></div><div class="row"><div class="col-sm-12 text-center"><p class="text-center">Copyright © 2026 • Comparar Seguro de Viagem (MAX TRAVEL LTDA ME) | <a href="./politica-de-privacidade">Política de Privacidade</a></p><p>CNPJ: 24.733.2870001-27</p><p><script data-b24-form="click/20/02zedm" data-b24-loaded="true" data-skip-moving="true">(function(w,d,u){
+    var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+})(window,document,'https://cdn.bitrix24.com.br/b23025923/crm/form/loader_20.js');</script><a href="#" onclick="return false;">Whatsapp Comparar Seguro de Viagem</a></p><p><a href="contato@compararsegurodeviagem.com.br">contato@compararsegurodeviagem.com.br</a></p><p>Endereço: Alameda Oscar Niemeyer, 436 - UN 303 - Vila da Serra, Nova Lima - MG, 34006-056</p></div></div></div></section><script src="assets/5f1ab65fe2ad6b38_jquery.min.js"></script>
+<script src="assets/a53c43f834b32309_owl.carousel.min.js"></script><script ,="" defer="" src="assets/31a115ad444503f8_litepicker-min.js"></script>
+<script ,="" defer="" src="assets/2097cac4770cf4f3_utms.js"></script><script ,="" defer="" src="assets/f773db67f71fa896_indexNovo.js"></script>
+<script ,="" defer="" src="assets/20849121e34f0d90_validaData.js"></script><script>if (isMobile) {
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            nav: false,
+            autoHeight:true,
+            dots: false
+        })
+    })
+} else {
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 2,
+            loop: true,
+            autoplay: true,
+            nav: true,
+            autoHeight:true,
+            dots: false,
+            navText: [
+                '<button class="custom-owl-prev">‹</button>',
+                '<button class="custom-owl-next">›</button>'
+            ]
+        })
+    })    
+}</script><div class="litepicker" data-plugins="" style="display: none;"><div class="container__main"><div class="container__months columns-2"><div class="month-item no-previous-month"><div class="month-item-header"><button class="button-previous-month" type="button"><svg height="16" width="11" xmlns="http://www.w3.org/2000/svg"><path d="M7.919 0l2.748 2.667L5.333 8l5.334 5.333L7.919 16 0 8z" fill-rule="nonzero"></path></svg></button><div><strong class="month-item-name">junho</strong><span class="month-item-year">2026</span></div><button class="button-next-month" type="button"><svg height="16" width="11" xmlns="http://www.w3.org/2000/svg"><path d="M2.748 16L0 13.333 5.333 8 0 2.667 2.748 0l7.919 8z" fill-rule="nonzero"></path></svg></button></div><div class="month-item-weekdays-row"><div title="segunda-feira">seg.</div><div title="terça-feira">ter.</div><div title="quarta-feira">qua.</div><div title="quinta-feira">qui.</div><div title="sexta-feira">sex.</div><div title="sábado">sáb.</div><div title="domingo">dom.</div></div><div class="container__days"><div class="day-item is-locked" data-time="1780286400000" tabindex="-1">1</div><div class="day-item is-locked" data-time="1780372800000" tabindex="-1">2</div><div class="day-item is-locked" data-time="1780459200000" tabindex="-1">3</div><div class="day-item is-locked" data-time="1780545600000" tabindex="-1">4</div><div class="day-item is-locked" data-time="1780632000000" tabindex="-1">5</div><div class="day-item is-locked" data-time="1780718400000" tabindex="-1">6</div><div class="day-item is-locked" data-time="1780804800000" tabindex="-1">7</div><div class="day-item is-locked" data-time="1780891200000" tabindex="-1">8</div><div class="day-item is-locked" data-time="1780977600000" tabindex="-1">9</div><div class="day-item is-locked" data-time="1781064000000" tabindex="-1">10</div><div class="day-item is-locked" data-time="1781150400000" tabindex="-1">11</div><div class="day-item is-locked" data-time="1781236800000" tabindex="-1">12</div><div class="day-item is-locked" data-time="1781323200000" tabindex="-1">13</div><div class="day-item is-locked" data-time="1781409600000" tabindex="-1">14</div><div class="day-item is-today" data-time="1781496000000" tabindex="0">15</div><div class="day-item" data-time="1781582400000" tabindex="0">16</div><div class="day-item" data-time="1781668800000" tabindex="0">17</div><div class="day-item" data-time="1781755200000" tabindex="0">18</div><div class="day-item" data-time="1781841600000" tabindex="0">19</div><div class="day-item" data-time="1781928000000" tabindex="0">20</div><div class="day-item" data-time="1782014400000" tabindex="0">21</div><div class="day-item" data-time="1782100800000" tabindex="0">22</div><div class="day-item" data-time="1782187200000" tabindex="0">23</div><div class="day-item" data-time="1782273600000" tabindex="0">24</div><div class="day-item" data-time="1782360000000" tabindex="0">25</div><div class="day-item" data-time="1782446400000" tabindex="0">26</div><div class="day-item" data-time="1782532800000" tabindex="0">27</div><div class="day-item" data-time="1782619200000" tabindex="0">28</div><div class="day-item" data-time="1782705600000" tabindex="0">29</div><div class="day-item" data-time="1782792000000" tabindex="0">30</div></div></div><div class="month-item"><div class="month-item-header"><button class="button-previous-month" type="button"><svg height="16" width="11" xmlns="http://www.w3.org/2000/svg"><path d="M7.919 0l2.748 2.667L5.333 8l5.334 5.333L7.919 16 0 8z" fill-rule="nonzero"></path></svg></button><div><strong class="month-item-name">julho</strong><span class="month-item-year">2026</span></div><button class="button-next-month" type="button"><svg height="16" width="11" xmlns="http://www.w3.org/2000/svg"><path d="M2.748 16L0 13.333 5.333 8 0 2.667 2.748 0l7.919 8z" fill-rule="nonzero"></path></svg></button></div><div class="month-item-weekdays-row"><div title="segunda-feira">seg.</div><div title="terça-feira">ter.</div><div title="quarta-feira">qua.</div><div title="quinta-feira">qui.</div><div title="sexta-feira">sex.</div><div title="sábado">sáb.</div><div title="domingo">dom.</div></div><div class="container__days"><div></div><div></div><div class="day-item" data-time="1782878400000" tabindex="0">1</div><div class="day-item" data-time="1782964800000" tabindex="0">2</div><div class="day-item" data-time="1783051200000" tabindex="0">3</div><div class="day-item" data-time="1783137600000" tabindex="0">4</div><div class="day-item" data-time="1783224000000" tabindex="0">5</div><div class="day-item" data-time="1783310400000" tabindex="0">6</div><div class="day-item" data-time="1783396800000" tabindex="0">7</div><div class="day-item" data-time="1783483200000" tabindex="0">8</div><div class="day-item" data-time="1783569600000" tabindex="0">9</div><div class="day-item" data-time="1783656000000" tabindex="0">10</div><div class="day-item" data-time="1783742400000" tabindex="0">11</div><div class="day-item" data-time="1783828800000" tabindex="0">12</div><div class="day-item" data-time="1783915200000" tabindex="0">13</div><div class="day-item" data-time="1784001600000" tabindex="0">14</div><div class="day-item" data-time="1784088000000" tabindex="0">15</div><div class="day-item" data-time="1784174400000" tabindex="0">16</div><div class="day-item" data-time="1784260800000" tabindex="0">17</div><div class="day-item" data-time="1784347200000" tabindex="0">18</div><div class="day-item" data-time="1784433600000" tabindex="0">19</div><div class="day-item" data-time="1784520000000" tabindex="0">20</div><div class="day-item" data-time="1784606400000" tabindex="0">21</div><div class="day-item" data-time="1784692800000" tabindex="0">22</div><div class="day-item" data-time="1784779200000" tabindex="0">23</div><div class="day-item" data-time="1784865600000" tabindex="0">24</div><div class="day-item" data-time="1784952000000" tabindex="0">25</div><div class="day-item" data-time="1785038400000" tabindex="0">26</div><div class="day-item" data-time="1785124800000" tabindex="0">27</div><div class="day-item" data-time="1785211200000" tabindex="0">28</div><div class="day-item" data-time="1785297600000" tabindex="0">29</div><div class="day-item" data-time="1785384000000" tabindex="0">30</div><div class="day-item" data-time="1785470400000" tabindex="0">31</div></div></div></div></div><div class="container__tooltip"></div></div>
+<script charset="" id="" type="text/javascript">!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods="page track identify instances debug on off once ready alias group enableCookie disableCookie holdConsent revokeConsent grantConsent".split(" ");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=
+function(b,c){var f="https://analytics.tiktok.com/i18n/pixel/events.js";a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement("script");c.type="text/javascript";c.async=!0;c.src=f+"?sdkid\x3d"+b+"\x26lib\x3d"+e;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)};a.load("D0V5K5BC77U8DLIL3DBG");a.page()}(window,document,"ttq");</script>
+<script charset="" id="" type="text/javascript">(function(a,e,b,f,g,c,d){a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};c=e.createElement(f);c.async=1;c.src="https://www.clarity.ms/tag/"+g+"?ref\x3dgtm2";d=e.getElementsByTagName(f)[0];d.parentNode.insertBefore(c,d)})(window,document,"clarity","script","m39aj9vpco");</script><script charset="" id="" type="text/javascript">(function(a,e,f,g,b,c,d){a.MauticTrackingObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://mkt.compararsegurodeviagem.com.br/mtc.js","mt");mt("send","pageview");</script><iframe height="0" style="display: none; visibility: hidden;" width="0"></iframe><script charset="" id="" type="text/javascript">window.__GM_WORKSPACE_ID__="0fb56c88-1733-4de3-82f6-6cfe31e15fd7";window.__GM_DL_EVENTS__="click_pesquisar clickPesquisar add_pay_info AddPayInfo click_adquirir clickAdquirir orderPlacedPix orderPlacedCartao".split(" ");(function(){var a=document.createElement("script");a.src="https://tracker.castnexo.com.br/script/latest.js";a.async=!0;document.head.appendChild(a)})();</script><script data-offline-fix="1">(function(){
+var IS_CSR = false;
+var resolveLocal = window.__resolveLocal || function(){return null;};
+var rewriteSrcset = window.__rewriteSrcset || function(s){return s;};
+function fixImg(el){
+  if (!el || el.tagName !== 'IMG') return;
+  var src = el.getAttribute('src');
+  var loc = resolveLocal(src);
+  if (loc && src !== loc) el.setAttribute('src', loc);
+  var ss = el.getAttribute('srcset');
+  if (ss) {
+    var nss = rewriteSrcset(ss);
+    if (nss !== ss) el.setAttribute('srcset', nss);
+  }
+}
+function fixAll(){ document.querySelectorAll('img').forEach(fixImg); }
+function hasSlideOffset(t){
+  // True if a transform indicates a 'parked off-screen' starting
+  // state: translation in px (>= 30) or % (>= 5), or a matrix
+  // with non-zero translation. Returns false for crossfade-only
+  // companions like scale(0.9) or pure centering translateX(-50%).
+  if (!t || t === 'none') return false;
+  // matrix(a,b,c,d,tx,ty) — parse tx/ty; matrix3d & friends → assume slide.
+  var matMatch = t.match(/matrix\(([^)]+)\)/);
+  if (matMatch) {
+    var parts = matMatch[1].split(',').map(function(x){return parseFloat(x.trim());});
+    if (parts.length === 6) {
+      if (Math.abs(parts[4]) >= 30 || Math.abs(parts[5]) >= 30) return true;
+    } else { return true; }
+  }
+  if (/matrix3d/i.test(t)) return true;
+  var px = t.match(/(-?\d+\.?\d*)px/g) || [];
+  for (var i = 0; i < px.length; i++) {
+    if (Math.abs(parseFloat(px[i])) >= 30) return true;
+  }
+  var pct = t.match(/(-?\d+\.?\d*)%/g) || [];
+  for (var j = 0; j < pct.length; j++) {
+    if (Math.abs(parseFloat(pct[j])) >= 5) return true;
+  }
+  return false;
+}
+function isHiddenStart(s){
+  // True if the element's inline style is parked at a 'before'
+  // animation state. opacity:0 alone is ambiguous (could be a
+  // crossfade companion); pair it with a slide transform OR an
+  // explicit visibility:hidden (GSAP/SplitType signature) to be
+  // confident it's a scroll-reveal waiting to fire.
+  if (s.opacity !== '0' && s.visibility !== 'hidden') return false;
+  if (s.visibility === 'hidden') return true;
+  return hasSlideOffset(s.transform) || hasSlideOffset(s.translate);
+}
+function revealEl(el){
+  var s = el.style;
+  s.opacity = '1';
+  if (s.visibility === 'hidden') s.visibility = 'visible';
+  if (s.transform) s.transform = 'none';
+  if (s.translate) s.translate = 'none';
+  if (s.rotate)    s.rotate = 'none';
+  if (s.scale)     s.scale = 'none';
+  if (s.pointerEvents === 'none') s.pointerEvents = '';
+}
+function snapReveal(){
+  // Safety net: any 'before-state' element still hidden gets
+  // forced visible. Used as a deadline pass for non-CSR mode
+  // (after GSAP/etc had a chance to play) and as a final guard.
+  // Skip pinned-chain elements — same reason as findScrollAnchor.
+  var n = 0;
+  document.querySelectorAll('[style]').forEach(function(el){
+    if (!isHiddenStart(el.style)) return;
+    if (isInsideFixed(el)) return;
+    revealEl(el); n++;
+  });
+  if (window.console && n) console.log('[offline-fix] snap-revealed', n);
+}
+function isInsideFixed(el){
+  var p = el;
+  while (p && p !== document.documentElement) {
+    if (getComputedStyle(p).position === 'fixed') return true;
+    p = p.parentElement;
+  }
+  return false;
+}
+function findScrollAnchor(el){
+  // Pinned-narrative sections (one position:fixed ancestor wrapping
+  // many sequenced headings the live JS reveals one-by-one across
+  // scroll progress) can't be orchestrated offline — revealing all
+  // of them at once produces an overlapping mess. Skip them: leave
+  // the parked state intact, matching the live site at scroll=0.
+  // For sticky chains, observe the sticky container itself (fires
+  // when the user has scrolled past its stuck threshold).
+  if (isInsideFixed(el)) return null;
+  var p = el;
+  while (p && p !== document.documentElement) {
+    if (getComputedStyle(p).position === 'sticky') return p;
+    p = p.parentElement;
+  }
+  return el;
+}
+function progressiveReveal(){
+  // CSR mode: scripts stripped → no GSAP/IO is going to fire.
+  // Mimic a scroll-driven reveal: each parked element gets a
+  // CSS transition + IntersectionObserver. As it enters viewport
+  // we transition to the 'after' state, with a small stagger by
+  // document order so SplitType chars still feel letter-by-letter.
+  var targets = [];
+  document.querySelectorAll('[style]').forEach(function(el){
+    if (isHiddenStart(el.style)) targets.push(el);
+  });
+  if (!targets.length) return;
+  var EASE = 'cubic-bezier(.16,1,.3,1)';
+  targets.forEach(function(el){
+    el.style.transition =
+      'opacity .6s ' + EASE + ', transform .6s ' + EASE + ', ' +
+      'translate .6s ' + EASE + ', scale .6s ' + EASE + ', ' +
+      'visibility 0s linear';
+  });
+  if (typeof IntersectionObserver === 'undefined') {
+    targets.forEach(revealEl);
+    return;
+  }
+  // Group targets by their scroll anchor. Anchors in sticky
+  // sections share one observation point — when that anchor
+  // intersects, we reveal all its parked descendants.
+  // Targets with null anchor (inside position:fixed) are skipped.
+  var groups = new Map();
+  targets.forEach(function(el){
+    var anchor = findScrollAnchor(el);
+    if (!anchor) return;
+    if (!groups.has(anchor)) groups.set(anchor, []);
+    groups.get(anchor).push(el);
+  });
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (!entry.isIntersecting) return;
+      var children = groups.get(entry.target) || [entry.target];
+      children.sort(function(a, b){
+        var pos = a.compareDocumentPosition(b);
+        return (pos & Node.DOCUMENT_POSITION_FOLLOWING) ? -1 : 1;
+      });
+      children.forEach(function(child, i){
+        var delay = Math.min(i * 18, 700);
+        setTimeout(function(){ revealEl(child); }, delay);
+      });
+      io.unobserve(entry.target);
+    });
+  }, { threshold: 0.05, rootMargin: '0px 0px -8% 0px' });
+  groups.forEach(function(_, anchor){ io.observe(anchor); });
+  // Deadline guard: anything that never intersects still gets revealed.
+  setTimeout(snapReveal, 8000);
+}
+function initUnicornStudio(){
+  // Captured page already has the loaded UMD script + the inline
+  // loader that says `if(!window.UnicornStudio)…`. The loader bails
+  // because UnicornStudio is already defined, so init() never runs.
+  if (window.UnicornStudio && typeof window.UnicornStudio.init === 'function'
+      && !window.UnicornStudio.isInitialized) {
+    try { window.UnicornStudio.init(); window.UnicornStudio.isInitialized = true; }
+    catch(e){ if(window.console) console.warn('[offline-fix] UnicornStudio init failed:', e); }
+  }
+}
+// Initial img sweep + observer for hydration-time updates
+fixAll();
+var obs = new MutationObserver(function(muts){
+  for (var i = 0; i < muts.length; i++) {
+    var m = muts[i];
+    if (m.type === 'attributes' && m.target.tagName === 'IMG') fixImg(m.target);
+    for (var j = 0; j < m.addedNodes.length; j++) {
+      var n = m.addedNodes[j];
+      if (n && n.nodeType === 1) {
+        if (n.tagName === 'IMG') fixImg(n);
+        if (n.querySelectorAll) n.querySelectorAll('img').forEach(fixImg);
+      }
+    }
+  }
+});
+obs.observe(document, {childList:true, subtree:true,
+  attributes:true, attributeFilter:['src','srcset']});
+setTimeout(fixAll, 1000);
+setTimeout(fixAll, 3000);
+var go = function(){
+  // CSR: scripts stripped, so 'before-state' elements stay parked
+  // forever unless we do something. Use IntersectionObserver to
+  // reveal them progressively as the user scrolls — preserves the
+  // scroll-triggered animation feel for SplitType chars, etc.
+  // Non-CSR: GSAP/Framer may still play; let them, then catch any
+  // leftovers with a snap pass at 5 s.
+  if (IS_CSR) progressiveReveal();
+  else setTimeout(snapReveal, 5000);
+  initUnicornStudio();
+  setTimeout(initUnicornStudio, 500);
+  setTimeout(initUnicornStudio, 2000);
+};
+if (document.readyState === 'complete') go();
+else window.addEventListener('load', go);
+})();</script></body></html>
